@@ -1,0 +1,2997 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{2CB0F06F-720D-46A5-A6F8-EF2F04A5BF9D}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Evernet.MoneyExchange"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "Evernet.MoneyExchange"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "Evernet.Shared.ConfigHelper"
+                    AssemblyName = "Evernet.Shared.ConfigHelper"
+                    HintPath = "bin\Evernet.Shared.ConfigHelper.dll"
+                />
+                <Reference
+                    Name = "mexchange"
+                    AssemblyName = "mexchange"
+                    HintPath = "bin\mexchange.dll"
+                />
+                <Reference
+                    Name = "Microsoft.ApplicationBlocks.Data"
+                    AssemblyName = "Microsoft.ApplicationBlocks.Data"
+                    HintPath = "bin\Microsoft.ApplicationBlocks.Data.dll"
+                />
+                <Reference
+                    Name = "NumberToWords"
+                    AssemblyName = "NumberToWords"
+                    HintPath = "bin\NumberToWords.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Comments.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CurrentLoggedUser.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CurrentLoggedUser.ascx.cs"
+                    DependentUpon = "CurrentLoggedUser.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CurrentLoggedUser.ascx.resx"
+                    DependentUpon = "CurrentLoggedUser.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Default.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Login.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Login.aspx.cs"
+                    DependentUpon = "Login.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Login.aspx.resx"
+                    DependentUpon = "Login.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\Admin.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\Announcement.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ApproveTransaction.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ApproveTransaction.aspx.cs"
+                    DependentUpon = "ApproveTransaction.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ApproveTransaction.aspx.resx"
+                    DependentUpon = "ApproveTransaction.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\BankAccountMaster.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\BankAccountMaster.aspx.cs"
+                    DependentUpon = "BankAccountMaster.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\BankAccountMaster.aspx.resx"
+                    DependentUpon = "BankAccountMaster.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\BankAvailablePaymentModeList.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\BankAvailablePaymentModeList.aspx.cs"
+                    DependentUpon = "BankAvailablePaymentModeList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\BankAvailablePaymentModeList.aspx.resx"
+                    DependentUpon = "BankAvailablePaymentModeList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\BankTransactionPayOutTemplate.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\BankTransactionReceiptTemplate.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\BulkCardAssigner.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\BulkCardAssigner.aspx.cs"
+                    DependentUpon = "BulkCardAssigner.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\BulkCardAssigner.aspx.resx"
+                    DependentUpon = "BulkCardAssigner.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\CashTransactionPayOutTemplate.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\CashTransactionReceiptTemplate.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\CashZohaTransactionReceiptTemplate.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\CashZohaTransactionReceiptTemplate_1.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ChangePassword.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ChangePassword.aspx.cs"
+                    DependentUpon = "ChangePassword.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ChangePassword.aspx.resx"
+                    DependentUpon = "ChangePassword.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ChangeTransactionStatus.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ChangeTransactionStatus.aspx.cs"
+                    DependentUpon = "ChangeTransactionStatus.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ChangeTransactionStatus.aspx.resx"
+                    DependentUpon = "ChangeTransactionStatus.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\Confirm.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\Confirm.aspx.cs"
+                    DependentUpon = "Confirm.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\Confirm.aspx.resx"
+                    DependentUpon = "Confirm.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ContactInfo.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ContactInfo.aspx.cs"
+                    DependentUpon = "ContactInfo.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ContactInfo.aspx.resx"
+                    DependentUpon = "ContactInfo.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\CreditToAccount.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\CreditToAccount.aspx.cs"
+                    DependentUpon = "CreditToAccount.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\CreditToAccount.aspx.resx"
+                    DependentUpon = "CreditToAccount.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\DailyRates.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\DailyRates.aspx.cs"
+                    DependentUpon = "DailyRates.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\DailyRates.aspx.resx"
+                    DependentUpon = "DailyRates.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\Default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\Default.aspx.cs"
+                    DependentUpon = "Default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\DepositOnlineToBankPayInReceiptTemplate.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\DepositOnlineToBankPayOutReceiptTemplate.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\DraftToBankPayInReceiptTemplate.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\DraftToBankPayOutReceiptTemplate.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\DraftToHomePayInReceiptTemplate.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\DraftToHomePayOutReceiptTemplate.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ExportUnPaidDraftToExcel.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ExportUnPaidDraftToExcel.aspx.cs"
+                    DependentUpon = "ExportUnPaidDraftToExcel.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ExportUnPaidDraftToExcel.aspx.resx"
+                    DependentUpon = "ExportUnPaidDraftToExcel.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\GlobalSettings.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\GlobalSettings.aspx.cs"
+                    DependentUpon = "GlobalSettings.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\GlobalSettings.aspx.resx"
+                    DependentUpon = "GlobalSettings.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\Home.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\Home.aspx.cs"
+                    DependentUpon = "Home.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\Home.aspx.resx"
+                    DependentUpon = "Home.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\InitiateTransfer.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\InitiateTransfer.aspx.cs"
+                    DependentUpon = "InitiateTransfer.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\InitiateTransfer.aspx.resx"
+                    DependentUpon = "InitiateTransfer.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\LogOff.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\LogOff.aspx.cs"
+                    DependentUpon = "LogOff.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\LogOff.aspx.resx"
+                    DependentUpon = "LogOff.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\MarkDraftAsPaid.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\MarkDraftAsPaid.aspx.cs"
+                    DependentUpon = "MarkDraftAsPaid.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\MarkDraftAsPaid.aspx.resx"
+                    DependentUpon = "MarkDraftAsPaid.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\PayOutOpenTransaction.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\PayOutOpenTransaction.aspx.cs"
+                    DependentUpon = "PayOutOpenTransaction.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\PayOutOpenTransaction.aspx.resx"
+                    DependentUpon = "PayOutOpenTransaction.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\PrintView_AgencyCommissionIncome.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\PrintView_AgencyCommissionIncome.aspx.cs"
+                    DependentUpon = "PrintView_AgencyCommissionIncome.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\PrintView_AgencyCommissionIncome.aspx.resx"
+                    DependentUpon = "PrintView_AgencyCommissionIncome.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\PrintView_CommissionUnPaid.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\PrintView_CommissionUnPaid.aspx.cs"
+                    DependentUpon = "PrintView_CommissionUnPaid.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\PrintView_CommissionUnPaid.aspx.resx"
+                    DependentUpon = "PrintView_CommissionUnPaid.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\PrintView_CurrencyExposure.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\PrintView_CurrencyExposure.aspx.cs"
+                    DependentUpon = "PrintView_CurrencyExposure.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\PrintView_CurrencyExposure.aspx.resx"
+                    DependentUpon = "PrintView_CurrencyExposure.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\PrintView_ExchangeEarnings.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\PrintView_ExchangeEarnings.aspx.cs"
+                    DependentUpon = "PrintView_ExchangeEarnings.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\PrintView_ExchangeEarnings.aspx.resx"
+                    DependentUpon = "PrintView_ExchangeEarnings.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\PrintView_PrincipleCommission.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\PrintView_PrincipleCommission.aspx.cs"
+                    DependentUpon = "PrintView_PrincipleCommission.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\PrintView_PrincipleCommission.aspx.resx"
+                    DependentUpon = "PrintView_PrincipleCommission.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\PrintView_PrincipleCommissionUnPaid.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\PrintView_PrincipleCommissionUnPaid.aspx.cs"
+                    DependentUpon = "PrintView_PrincipleCommissionUnPaid.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\PrintView_PrincipleCommissionUnPaid.aspx.resx"
+                    DependentUpon = "PrintView_PrincipleCommissionUnPaid.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\Redirector.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\Registration.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\Registration.aspx.cs"
+                    DependentUpon = "Registration.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\Registration.aspx.resx"
+                    DependentUpon = "Registration.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\RejectTransaction.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\RejectTransaction.aspx.cs"
+                    DependentUpon = "RejectTransaction.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\RejectTransaction.aspx.resx"
+                    DependentUpon = "RejectTransaction.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\Report_CreditDebitForAgentAccount.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\Report_CreditDebitForAgentAccount.aspx.cs"
+                    DependentUpon = "Report_CreditDebitForAgentAccount.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\Report_CreditDebitForAgentAccount.aspx.resx"
+                    DependentUpon = "Report_CreditDebitForAgentAccount.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\Search.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\Search.aspx.cs"
+                    DependentUpon = "Search.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\Search.aspx.resx"
+                    DependentUpon = "Search.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ShowOpenTransaction.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ShowOpenTransaction.aspx.cs"
+                    DependentUpon = "ShowOpenTransaction.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ShowOpenTransaction.aspx.resx"
+                    DependentUpon = "ShowOpenTransaction.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ShowReceipt.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ShowReceipt.aspx.cs"
+                    DependentUpon = "ShowReceipt.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ShowReceipt.aspx.resx"
+                    DependentUpon = "ShowReceipt.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ShowReport.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ShowReport.aspx.cs"
+                    DependentUpon = "ShowReport.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ShowReport.aspx.resx"
+                    DependentUpon = "ShowReport.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\SpeedEast.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\SRUserManagement.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\SRUserManagement.aspx.cs"
+                    DependentUpon = "SRUserManagement.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\SRUserManagement.aspx.resx"
+                    DependentUpon = "SRUserManagement.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\SRUserRoleManagement.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\SRUserRoleManagement.aspx.cs"
+                    DependentUpon = "SRUserRoleManagement.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\SRUserRoleManagement.aspx.resx"
+                    DependentUpon = "SRUserRoleManagement.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\StyleSheet.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\UpdateTransaction.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\UpdateTransaction.aspx.cs"
+                    DependentUpon = "UpdateTransaction.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\UpdateTransaction.aspx.resx"
+                    DependentUpon = "UpdateTransaction.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ViewDraftTransactions.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ViewDraftTransactions.aspx.cs"
+                    DependentUpon = "ViewDraftTransactions.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ViewDraftTransactions.aspx.resx"
+                    DependentUpon = "ViewDraftTransactions.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ViewIncomingTransaction.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ViewIncomingTransaction.aspx.cs"
+                    DependentUpon = "ViewIncomingTransaction.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ViewIncomingTransaction.aspx.resx"
+                    DependentUpon = "ViewIncomingTransaction.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ViewOpenTransaction.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ViewOpenTransaction.aspx.cs"
+                    DependentUpon = "ViewOpenTransaction.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ViewOpenTransaction.aspx.resx"
+                    DependentUpon = "ViewOpenTransaction.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ViewPendingTransaction.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ViewPendingTransaction.aspx.cs"
+                    DependentUpon = "ViewPendingTransaction.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ViewPendingTransaction.aspx.resx"
+                    DependentUpon = "ViewPendingTransaction.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ViewPendingTransaction_old.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ViewPendingTransaction_old.aspx.cs"
+                    DependentUpon = "ViewPendingTransaction_old.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ViewPendingTransaction_old.aspx.resx"
+                    DependentUpon = "ViewPendingTransaction_old.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ViewReport_AgencyCommissionIncome.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ViewReport_AgencyCommissionIncome.aspx.cs"
+                    DependentUpon = "ViewReport_AgencyCommissionIncome.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ViewReport_AgencyCommissionIncome.aspx.resx"
+                    DependentUpon = "ViewReport_AgencyCommissionIncome.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ViewReport_CommissionUnPaid.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ViewReport_CommissionUnPaid.aspx.cs"
+                    DependentUpon = "ViewReport_CommissionUnPaid.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ViewReport_CommissionUnPaid.aspx.resx"
+                    DependentUpon = "ViewReport_CommissionUnPaid.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ViewReport_CurrencyExposure.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ViewReport_CurrencyExposure.aspx.cs"
+                    DependentUpon = "ViewReport_CurrencyExposure.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ViewReport_CurrencyExposure.aspx.resx"
+                    DependentUpon = "ViewReport_CurrencyExposure.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ViewReport_ExchangeEarnings.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ViewReport_ExchangeEarnings.aspx.cs"
+                    DependentUpon = "ViewReport_ExchangeEarnings.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ViewReport_ExchangeEarnings.aspx.resx"
+                    DependentUpon = "ViewReport_ExchangeEarnings.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ViewReport_PrincipleCommission.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ViewReport_PrincipleCommission.aspx.cs"
+                    DependentUpon = "ViewReport_PrincipleCommission.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ViewReport_PrincipleCommission.aspx.resx"
+                    DependentUpon = "ViewReport_PrincipleCommission.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ViewReport_PrincipleCommissionUnPaid.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ViewReport_PrincipleCommissionUnPaid.aspx.cs"
+                    DependentUpon = "ViewReport_PrincipleCommissionUnPaid.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ViewReport_PrincipleCommissionUnPaid.aspx.resx"
+                    DependentUpon = "ViewReport_PrincipleCommissionUnPaid.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ViewReports.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ViewReports.aspx.cs"
+                    DependentUpon = "ViewReports.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ViewReports.aspx.resx"
+                    DependentUpon = "ViewReports.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ViewSentTransactions.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ViewSentTransactions.aspx.cs"
+                    DependentUpon = "ViewSentTransactions.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ViewSentTransactions.aspx.resx"
+                    DependentUpon = "ViewSentTransactions.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ViewTransactionDetails.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ViewTransactionDetails.aspx.cs"
+                    DependentUpon = "ViewTransactionDetails.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ViewTransactionDetails.aspx.resx"
+                    DependentUpon = "ViewTransactionDetails.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\ViewTransactionStatus.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ViewTransactionStatus.aspx.cs"
+                    DependentUpon = "ViewTransactionStatus.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ViewTransactionStatus.aspx.resx"
+                    DependentUpon = "ViewTransactionStatus.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgencyCommissionIncomeAccountDetails.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgencyCommissionIncomeAccountDetails.aspx.cs"
+                    DependentUpon = "WebForm_AgencyCommissionIncomeAccountDetails.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgencyCommissionIncomeAccountDetails.aspx.resx"
+                    DependentUpon = "WebForm_AgencyCommissionIncomeAccountDetails.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgencyDifferenceIncomeAccountDetails.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgencyDifferenceIncomeAccountDetails.aspx.cs"
+                    DependentUpon = "WebForm_AgencyDifferenceIncomeAccountDetails.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgencyExchangeRateList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgencyExchangeRateList.aspx.cs"
+                    DependentUpon = "WebForm_AgencyExchangeRateList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgencyExchangeRateList.aspx.resx"
+                    DependentUpon = "WebForm_AgencyExchangeRateList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentAccountDetails.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentAccountDetails.aspx.cs"
+                    DependentUpon = "WebForm_AgentAccountDetails.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentAccountType.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentAccountType.aspx.cs"
+                    DependentUpon = "WebForm_AgentAccountType.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentAvailablePaymentModeList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentAvailablePaymentModeList.aspx.cs"
+                    DependentUpon = "WebForm_AgentAvailablePaymentModeList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentCommissionIncomeAccount.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentCommissionIncomeAccount.aspx.cs"
+                    DependentUpon = "WebForm_AgentCommissionIncomeAccount.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentCommissionSplitList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentCommissionSplitList.aspx.cs"
+                    DependentUpon = "WebForm_AgentCommissionSplitList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentExchangeRateList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentExchangeRateList.aspx.cs"
+                    DependentUpon = "WebForm_AgentExchangeRateList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentExchangeRateList.aspx.resx"
+                    DependentUpon = "WebForm_AgentExchangeRateList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentGroupList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentGroupList.aspx.cs"
+                    DependentUpon = "WebForm_AgentGroupList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentLocationList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentLocationList.aspx.cs"
+                    DependentUpon = "WebForm_AgentLocationList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentLocationList.aspx.resx"
+                    DependentUpon = "WebForm_AgentLocationList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentMaster.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentMaster.aspx.cs"
+                    DependentUpon = "WebForm_AgentMaster.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_AgentMaster.aspx.resx"
+                    DependentUpon = "WebForm_AgentMaster.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebForm_BankExchangeRateList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_BankExchangeRateList.aspx.cs"
+                    DependentUpon = "WebForm_BankExchangeRateList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_BankExchangeRateList.aspx.resx"
+                    DependentUpon = "WebForm_BankExchangeRateList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebForm_BankList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_BankList.aspx.cs"
+                    DependentUpon = "WebForm_BankList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_BankList.aspx.resx"
+                    DependentUpon = "WebForm_BankList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebForm_BeneficeryBankList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_BeneficeryBankList.aspx.cs"
+                    DependentUpon = "WebForm_BeneficeryBankList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_BeneficeryBankList.aspx.resx"
+                    DependentUpon = "WebForm_BeneficeryBankList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CommissionCurrencyType.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CommissionCurrencyType.aspx.cs"
+                    DependentUpon = "WebForm_CommissionCurrencyType.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CommissionSlabMaster.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CommissionSlabMaster.aspx.cs"
+                    DependentUpon = "WebForm_CommissionSlabMaster.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CommissionSlabMaster.aspx.resx"
+                    DependentUpon = "WebForm_CommissionSlabMaster.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CommissionSplitTypeList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CommissionSplitTypeList.aspx.cs"
+                    DependentUpon = "WebForm_CommissionSplitTypeList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CountryAllowedOutboundCurrencyList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CountryAllowedOutboundCurrencyList.aspx.cs"
+                    DependentUpon = "WebForm_CountryAllowedOutboundCurrencyList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CountryAvailablePaymentModeList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CountryAvailablePaymentModeList.aspx.cs"
+                    DependentUpon = "WebForm_CountryAvailablePaymentModeList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CountryList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CountryList.aspx.cs"
+                    DependentUpon = "WebForm_CountryList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CountryList.aspx.resx"
+                    DependentUpon = "WebForm_CountryList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CountryTransactionPermissionList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CountryTransactionPermissionList.aspx.cs"
+                    DependentUpon = "WebForm_CountryTransactionPermissionList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CountryTransactionPermissionTypeList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CountryTransactionPermissionTypeList.aspx.cs"
+                    DependentUpon = "WebForm_CountryTransactionPermissionTypeList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CurrencyExchangeType.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CurrencyExchangeType.aspx.cs"
+                    DependentUpon = "WebForm_CurrencyExchangeType.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CurrencyList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CurrencyList.aspx.cs"
+                    DependentUpon = "WebForm_CurrencyList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CurrencyList.aspx.resx"
+                    DependentUpon = "WebForm_CurrencyList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CustomerCardList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CustomerCardList.aspx.cs"
+                    DependentUpon = "WebForm_CustomerCardList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CustomerCardStatusList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CustomerCardStatusList.aspx.cs"
+                    DependentUpon = "WebForm_CustomerCardStatusList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CustomerList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CustomerList.aspx.cs"
+                    DependentUpon = "WebForm_CustomerList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CustomerLoyaltyPointsAccumulationHistory.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CustomerLoyaltyPointsAccumulationHistory.aspx.cs"
+                    DependentUpon = "WebForm_CustomerLoyaltyPointsAccumulationHistory.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CustomerLoyaltyPointsRedeemHistory.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_CustomerLoyaltyPointsRedeemHistory.aspx.cs"
+                    DependentUpon = "WebForm_CustomerLoyaltyPointsRedeemHistory.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_EntityList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_EntityList.aspx.cs"
+                    DependentUpon = "WebForm_EntityList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_GBPBankExchangeRateList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_GBPBankExchangeRateList.aspx.cs"
+                    DependentUpon = "WebForm_GBPBankExchangeRateList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_GBPBankExchangeRateList.aspx.resx"
+                    DependentUpon = "WebForm_GBPBankExchangeRateList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebForm_GlobalSettings.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_GlobalSettings.aspx.cs"
+                    DependentUpon = "WebForm_GlobalSettings.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_LocationList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_LocationList.aspx.cs"
+                    DependentUpon = "WebForm_LocationList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_LocationTree.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_LocationTree.aspx.cs"
+                    DependentUpon = "WebForm_LocationTree.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_MasterCountryList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_MasterCountryList.aspx.cs"
+                    DependentUpon = "WebForm_MasterCountryList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_MasterModuleList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_MasterModuleList.aspx.cs"
+                    DependentUpon = "WebForm_MasterModuleList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_OFACBannedNameList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_OFACBannedNameList.aspx.cs"
+                    DependentUpon = "WebForm_OFACBannedNameList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_PayInAgentDifferenceIncomeAccount.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_PayInAgentDifferenceIncomeAccount.aspx.cs"
+                    DependentUpon = "WebForm_PayInAgentDifferenceIncomeAccount.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_PaymentHistory.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_PaymentHistory.aspx.cs"
+                    DependentUpon = "WebForm_PaymentHistory.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_PaymentModeBaseTypeList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_PaymentModeBaseTypeList.aspx.cs"
+                    DependentUpon = "WebForm_PaymentModeBaseTypeList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_PaymentModeList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_PaymentModeList.aspx.cs"
+                    DependentUpon = "WebForm_PaymentModeList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_PaymentType.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_PaymentType.aspx.cs"
+                    DependentUpon = "WebForm_PaymentType.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_ProductsList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_ProductsList.aspx.cs"
+                    DependentUpon = "WebForm_ProductsList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_PurposeOfTransferList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_PurposeOfTransferList.aspx.cs"
+                    DependentUpon = "WebForm_PurposeOfTransferList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_TransactionDetails.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_TransactionDetails.aspx.cs"
+                    DependentUpon = "WebForm_TransactionDetails.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_TransactionDraftList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_TransactionDraftList.aspx.cs"
+                    DependentUpon = "WebForm_TransactionDraftList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_TransactionModificationMessageList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_TransactionModificationMessageList.aspx.cs"
+                    DependentUpon = "WebForm_TransactionModificationMessageList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_TransactionSettlementHistory.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_TransactionSettlementHistory.aspx.cs"
+                    DependentUpon = "WebForm_TransactionSettlementHistory.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_TransactionSettlementStatusList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_TransactionSettlementStatusList.aspx.cs"
+                    DependentUpon = "WebForm_TransactionSettlementStatusList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_TransactionStatusList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_TransactionStatusList.aspx.cs"
+                    DependentUpon = "WebForm_TransactionStatusList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_TransactionTypeList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_TransactionTypeList.aspx.cs"
+                    DependentUpon = "WebForm_TransactionTypeList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_TransitionAccountDetails.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_TransitionAccountDetails.aspx.cs"
+                    DependentUpon = "WebForm_TransitionAccountDetails.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_UserAuditList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_UserAuditList.aspx.cs"
+                    DependentUpon = "WebForm_UserAuditList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_UserList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_UserList.aspx.cs"
+                    DependentUpon = "WebForm_UserList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_UserList.aspx.resx"
+                    DependentUpon = "WebForm_UserList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebForm_UserRoleAssignmentList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_UserRoleAssignmentList.aspx.cs"
+                    DependentUpon = "WebForm_UserRoleAssignmentList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_UserRoleList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_UserRoleList.aspx.cs"
+                    DependentUpon = "WebForm_UserRoleList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebForm_UserRoleTypeList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebForm_UserRoleTypeList.aspx.cs"
+                    DependentUpon = "WebForm_UserRoleTypeList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormInternal_AdminTop.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormInternal_AdminTop.aspx.cs"
+                    DependentUpon = "WebFormInternal_AdminTop.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgencyCommissionIncomeAccountDetails.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgencyCommissionIncomeAccountDetails.aspx.cs"
+                    DependentUpon = "WebFormList_AgencyCommissionIncomeAccountDetails.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgencyCommissionIncomeAccountDetails.aspx.resx"
+                    DependentUpon = "WebFormList_AgencyCommissionIncomeAccountDetails.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgencyDifferenceIncomeAccountDetails.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgencyDifferenceIncomeAccountDetails.aspx.cs"
+                    DependentUpon = "WebFormList_AgencyDifferenceIncomeAccountDetails.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgencyExchangeRateList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgencyExchangeRateList.aspx.cs"
+                    DependentUpon = "WebFormList_AgencyExchangeRateList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgencyExchangeRateList.aspx.resx"
+                    DependentUpon = "WebFormList_AgencyExchangeRateList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentAccountDetails.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentAccountDetails.aspx.cs"
+                    DependentUpon = "WebFormList_AgentAccountDetails.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentAccountDetails.aspx.resx"
+                    DependentUpon = "WebFormList_AgentAccountDetails.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentAccountType.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentAccountType.aspx.cs"
+                    DependentUpon = "WebFormList_AgentAccountType.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentAvailablePaymentModeList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentAvailablePaymentModeList.aspx.cs"
+                    DependentUpon = "WebFormList_AgentAvailablePaymentModeList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentCommissionIncomeAccount.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentCommissionIncomeAccount.aspx.cs"
+                    DependentUpon = "WebFormList_AgentCommissionIncomeAccount.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentCommissionSplitList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentCommissionSplitList.aspx.cs"
+                    DependentUpon = "WebFormList_AgentCommissionSplitList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentExchangeRateList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentExchangeRateList.aspx.cs"
+                    DependentUpon = "WebFormList_AgentExchangeRateList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentExchangeRateList.aspx.resx"
+                    DependentUpon = "WebFormList_AgentExchangeRateList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentGroupList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentGroupList.aspx.cs"
+                    DependentUpon = "WebFormList_AgentGroupList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentLocationList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentLocationList.aspx.cs"
+                    DependentUpon = "WebFormList_AgentLocationList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentLocationList.aspx.resx"
+                    DependentUpon = "WebFormList_AgentLocationList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentMaster.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentMaster.aspx.cs"
+                    DependentUpon = "WebFormList_AgentMaster.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_AgentMaster.aspx.resx"
+                    DependentUpon = "WebFormList_AgentMaster.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_BankExchangeRateList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_BankExchangeRateList.aspx.cs"
+                    DependentUpon = "WebFormList_BankExchangeRateList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_BankExchangeRateList.aspx.resx"
+                    DependentUpon = "WebFormList_BankExchangeRateList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_BankList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_BankList.aspx.cs"
+                    DependentUpon = "WebFormList_BankList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_BankList.aspx.resx"
+                    DependentUpon = "WebFormList_BankList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_BeneficeryBankList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_BeneficeryBankList.aspx.cs"
+                    DependentUpon = "WebFormList_BeneficeryBankList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CommissionCurrencyType.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CommissionCurrencyType.aspx.cs"
+                    DependentUpon = "WebFormList_CommissionCurrencyType.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CommissionSlabMaster.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CommissionSlabMaster.aspx.cs"
+                    DependentUpon = "WebFormList_CommissionSlabMaster.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CommissionSplitTypeList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CommissionSplitTypeList.aspx.cs"
+                    DependentUpon = "WebFormList_CommissionSplitTypeList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CountryAllowedOutboundCurrencyList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CountryAllowedOutboundCurrencyList.aspx.cs"
+                    DependentUpon = "WebFormList_CountryAllowedOutboundCurrencyList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CountryAvailablePaymentModeList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CountryAvailablePaymentModeList.aspx.cs"
+                    DependentUpon = "WebFormList_CountryAvailablePaymentModeList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CountryList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CountryList.aspx.cs"
+                    DependentUpon = "WebFormList_CountryList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CountryList.aspx.resx"
+                    DependentUpon = "WebFormList_CountryList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CountryTransactionPermissionList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CountryTransactionPermissionList.aspx.cs"
+                    DependentUpon = "WebFormList_CountryTransactionPermissionList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CountryTransactionPermissionList.aspx.resx"
+                    DependentUpon = "WebFormList_CountryTransactionPermissionList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CountryTransactionPermissionTypeList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CountryTransactionPermissionTypeList.aspx.cs"
+                    DependentUpon = "WebFormList_CountryTransactionPermissionTypeList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CurrencyExchangeType.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CurrencyExchangeType.aspx.cs"
+                    DependentUpon = "WebFormList_CurrencyExchangeType.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CurrencyList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CurrencyList.aspx.cs"
+                    DependentUpon = "WebFormList_CurrencyList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CurrencyList.aspx.resx"
+                    DependentUpon = "WebFormList_CurrencyList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CustomerCardList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CustomerCardList.aspx.cs"
+                    DependentUpon = "WebFormList_CustomerCardList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CustomerCardList.aspx.resx"
+                    DependentUpon = "WebFormList_CustomerCardList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CustomerCardStatusList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CustomerCardStatusList.aspx.cs"
+                    DependentUpon = "WebFormList_CustomerCardStatusList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CustomerList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CustomerList.aspx.cs"
+                    DependentUpon = "WebFormList_CustomerList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CustomerLoyaltyPointsAccumulationHistory.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CustomerLoyaltyPointsAccumulationHistory.aspx.cs"
+                    DependentUpon = "WebFormList_CustomerLoyaltyPointsAccumulationHistory.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CustomerLoyaltyPointsRedeemHistory.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_CustomerLoyaltyPointsRedeemHistory.aspx.cs"
+                    DependentUpon = "WebFormList_CustomerLoyaltyPointsRedeemHistory.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_EntityList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_EntityList.aspx.cs"
+                    DependentUpon = "WebFormList_EntityList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_GlobalSettings.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_GlobalSettings.aspx.cs"
+                    DependentUpon = "WebFormList_GlobalSettings.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_GlobalSettings.aspx.resx"
+                    DependentUpon = "WebFormList_GlobalSettings.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_LocationList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_LocationList.aspx.cs"
+                    DependentUpon = "WebFormList_LocationList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_LocationList.aspx.resx"
+                    DependentUpon = "WebFormList_LocationList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_LocationTree.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_LocationTree.aspx.cs"
+                    DependentUpon = "WebFormList_LocationTree.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_MasterCountryList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_MasterCountryList.aspx.cs"
+                    DependentUpon = "WebFormList_MasterCountryList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_MasterCountryList.aspx.resx"
+                    DependentUpon = "WebFormList_MasterCountryList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_MasterModuleList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_MasterModuleList.aspx.cs"
+                    DependentUpon = "WebFormList_MasterModuleList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_MasterModuleList.aspx.resx"
+                    DependentUpon = "WebFormList_MasterModuleList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_OFACBannedNameList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_OFACBannedNameList.aspx.cs"
+                    DependentUpon = "WebFormList_OFACBannedNameList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_OFACBannedNameList.aspx.resx"
+                    DependentUpon = "WebFormList_OFACBannedNameList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_PayInAgentDifferenceIncomeAccount.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_PayInAgentDifferenceIncomeAccount.aspx.cs"
+                    DependentUpon = "WebFormList_PayInAgentDifferenceIncomeAccount.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_PaymentHistory.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_PaymentHistory.aspx.cs"
+                    DependentUpon = "WebFormList_PaymentHistory.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_PaymentModeBaseTypeList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_PaymentModeBaseTypeList.aspx.cs"
+                    DependentUpon = "WebFormList_PaymentModeBaseTypeList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_PaymentModeList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_PaymentModeList.aspx.cs"
+                    DependentUpon = "WebFormList_PaymentModeList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_PaymentType.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_PaymentType.aspx.cs"
+                    DependentUpon = "WebFormList_PaymentType.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_ProductsList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_ProductsList.aspx.cs"
+                    DependentUpon = "WebFormList_ProductsList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_PurposeOfTransferList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_PurposeOfTransferList.aspx.cs"
+                    DependentUpon = "WebFormList_PurposeOfTransferList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_TransactionDetails.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_TransactionDetails.aspx.cs"
+                    DependentUpon = "WebFormList_TransactionDetails.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_TransactionDraftList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_TransactionDraftList.aspx.cs"
+                    DependentUpon = "WebFormList_TransactionDraftList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_TransactionModificationMessageList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_TransactionModificationMessageList.aspx.cs"
+                    DependentUpon = "WebFormList_TransactionModificationMessageList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_TransactionSettlementHistory.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_TransactionSettlementHistory.aspx.cs"
+                    DependentUpon = "WebFormList_TransactionSettlementHistory.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_TransactionSettlementStatusList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_TransactionSettlementStatusList.aspx.cs"
+                    DependentUpon = "WebFormList_TransactionSettlementStatusList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_TransactionStatusList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_TransactionStatusList.aspx.cs"
+                    DependentUpon = "WebFormList_TransactionStatusList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_TransactionTypeList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_TransactionTypeList.aspx.cs"
+                    DependentUpon = "WebFormList_TransactionTypeList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_TransactionTypeList.aspx.resx"
+                    DependentUpon = "WebFormList_TransactionTypeList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_TransitionAccountDetails.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_TransitionAccountDetails.aspx.cs"
+                    DependentUpon = "WebFormList_TransitionAccountDetails.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_UserAuditList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_UserAuditList.aspx.cs"
+                    DependentUpon = "WebFormList_UserAuditList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_UserAuditList.aspx.resx"
+                    DependentUpon = "WebFormList_UserAuditList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_UserList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_UserList.aspx.cs"
+                    DependentUpon = "WebFormList_UserList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_UserList.aspx.resx"
+                    DependentUpon = "WebFormList_UserList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_UserRoleAssignmentList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_UserRoleAssignmentList.aspx.cs"
+                    DependentUpon = "WebFormList_UserRoleAssignmentList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_UserRoleAssignmentList.aspx.resx"
+                    DependentUpon = "WebFormList_UserRoleAssignmentList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_UserRoleList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_UserRoleList.aspx.cs"
+                    DependentUpon = "WebFormList_UserRoleList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_UserRoleList.aspx.resx"
+                    DependentUpon = "WebFormList_UserRoleList.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_UserRoleTypeList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\WebFormList_UserRoleTypeList.aspx.cs"
+                    DependentUpon = "WebFormList_UserRoleTypeList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ZohaTransactionsManagement.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Admin\ZohaTransactionsManagement.aspx.cs"
+                    DependentUpon = "ZohaTransactionsManagement.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Admin\ZohaTransactionsManagement.aspx.resx"
+                    DependentUpon = "ZohaTransactionsManagement.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Admin\css\InnerPage.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Approved Template\arrows.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Approved Template\cpiece.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Approved Template\Default.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Approved Template\Innerpage.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Approved Template\Insidepage.JPG"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Approved Template\login.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Approved Template\LoginPage.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Approved Template\LoginPage_Admin.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Approved Template\LoginPage_Agent.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Approved Template\LoginPage_Customer.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Approved Template\mm_menu.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Approved Template\Skeleton.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Approved Template\template.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Approved Template\template_01.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Approved Template\template_02.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Approved Template\template_03.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Approved Template\template_04.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Approved Template\template_05.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Approved Template\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Approved Template\top.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BusinessLogic\AgencyExchangeRate.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\AgentExchangeRate.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\AgentManager.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\BankExchangeRate.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\CommissionRate.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\CommissionRateManager.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\Currency.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\CurrencyManager.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\CustomerManager.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\Enum - CardStatus.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\Enum - CommissionCurrencyType.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\Enum - CommissionType.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\Enum - CurrencyExchangePosition.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\Enum - CurrencyExchangeType.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\Enum - ExchangeRateFromEntityList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\Enum - TransactionPermissionType.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\Enum - TransactionSettlementStatus.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\Enum - TransactionStatus.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\Enum - UserRoles.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\ExchangeRateManager.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\TransactionManager.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\TransactionTypeList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\TransactionValidationResult.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\UnitExchangeRate.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\UserManager.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\UserTypeList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BusinessLogic\Utilities.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Customers\CreateCustomer.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Customers\CreateCustomer.aspx.cs"
+                    DependentUpon = "CreateCustomer.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Customers\CreateCustomer.aspx.resx"
+                    DependentUpon = "CreateCustomer.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ExportQueries\Global.sql"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ExportQueries\Global2.sql"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\Activate.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\DeActivate.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\Delete.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\Details.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\edit.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\Exchange.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\Open.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\icons\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\layoutImages\AWARDS.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Banner_SendMoney.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Banner_WeUnderstand.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\cpiece.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\dancy1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\glowing_star.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Insidepage.JPG"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\LImage1.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\LImage1_2.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\LImage2.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\LImage3.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\logo.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\logo_small.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\logozoha.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu1_N_ContactUs.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu1_N_GlobalSettings.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu1_N_Home.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu1_N_LogOff.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu1_N_Management.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu1_N_Reports.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_AgentAccountMan.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_AgentExchangeMargin.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_AgentGroupList.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_AgentMan.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_AgentMOP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_BankMan.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_BankModeOfPayment.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_BulkCardAssignment.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_CCardMan.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_ChangeLoginPassword.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_CommissionSlabMan.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_CountryMan.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_CountryMOP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_CountryPermissionLi.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_CurrencyMan.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_CustomerCardMan.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_CustomerMan.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_ExchangeRateMan.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_IncomingTransaction.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_InitateTransaction.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_LocationMan.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_PendingTransaction.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_PurposeOfTransfer.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_SentTransactions.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_SRExchangeMargin.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_SRUserMan.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_SRUserRoleMan.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_TransactionMan.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_UserMan.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_UserRoleMan.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_ViewDrafts.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_ViewExchangeRate.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_ViewLocations.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_ViewOpenTransaction.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\Menu2_N_ViewTransactionStatus.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\new.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\spacer.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\spacer.JPG"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\SpeedJordan.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\SpeedNews.JPG"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\template.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\template_01.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\template_02.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\template_03.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\template_04.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\template_05.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\layoutImages\top.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\CustomerMenu1.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\CustomerMenu1.ascx.cs"
+                    DependentUpon = "CustomerMenu1.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\CustomerMenu1.ascx.resx"
+                    DependentUpon = "CustomerMenu1.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControls\CustomerMenu2.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\CustomerMenu2.ascx.cs"
+                    DependentUpon = "CustomerMenu2.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\CustomerMenu2.ascx.resx"
+                    DependentUpon = "CustomerMenu2.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControls\Menu1.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\Menu1.ascx.cs"
+                    DependentUpon = "Menu1.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\Menu1.ascx.resx"
+                    DependentUpon = "Menu1.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControls\Menu2.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\Menu2.ascx.cs"
+                    DependentUpon = "Menu2.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\Menu2.ascx.resx"
+                    DependentUpon = "Menu2.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UserControls\StatusInfo.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "UserControls\StatusInfo.ascx.cs"
+                    DependentUpon = "StatusInfo.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UserControls\StatusInfo.ascx.resx"
+                    DependentUpon = "StatusInfo.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

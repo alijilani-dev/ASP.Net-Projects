@@ -1,0 +1,312 @@
+<style type="text/css"> td { font-family:tahoma; font-size:12px; padding:1px; }
+	</style>
+<table width="100%" border="0" cellpadding="0" height="806">
+	<tr>
+		<td align="center" height="52"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="300" align="center"><img src="/images/layoutImages/logo.jpg"></td>
+					<td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="60" align="center">&nbsp;</td>
+								<td>{PayInAgentName}</td>
+							</tr>
+							<tr>
+								<td align="center">&nbsp;</td>
+								<td>{PayInAgentAddress}</td>
+							</tr>
+							<tr>
+								<td align="center">&nbsp;</td>
+								<td>Telephone: {PayInAgentTelephone}</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="50" align="center"><font size="4">Speed Remit Invoice({PaymentMode})</font></td>
+	</tr>
+	<tr>
+		<td height="16" bordercolor="#ffffff" bgcolor="#eeeeee">
+			<p align="center"><b>Exclusive Membership Card No: </b>{EMCNumber}</p>
+		</td>
+	</tr>
+	<tr>
+		<td height="23"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="80" align="right"><strong style="FONT-SIZE:16px">SRTR No: </strong>
+					</td>
+					<td width="15">&nbsp;</td>
+					<td width="180"><strong style="FONT-SIZE:16px">{TRNO} </strong>
+					</td>
+					<td width="22%" align="right"><strong>Card Number:</strong></td>
+					<td>{CustomerId}</td>
+					<td width="150"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="30%" align="right"><strong>Date : </strong>
+								</td>
+								<td>{Date}</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="18"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="180"><strong>Purpose of Transfer : </strong>
+					</td>
+					<td><strong>{PurposeOfTransferName}</strong></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="15"></td>
+	</tr>
+	<tr>
+		<td height="18"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="50%"><strong>Remitter Details {COFACFound} </strong>
+					</td>
+					<td><strong>Beneficiary Details {BOFACFound} </strong>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td bgcolor="#eeeeee" height="82"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="50%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="180" valign="top">Name</td>
+								<td>{RemitterName}</td>
+							</tr>
+							<tr>
+								<td valign="top">Telephone</td>
+								<td>{RemitterTelephone}</td>
+							</tr>
+							<tr>
+								<td valign="top">Mobile</td>
+								<td>{RemitterMobile}</td>
+							</tr>
+							<tr>
+								<td valign="top">Address</td>
+								<td>{RemitterAddress}</td>
+							</tr>
+						</table>
+					</td>
+					<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="220" valign="top">Name</td>
+								<td>{BeneficeryName}</td>
+							</tr>
+							<tr>
+								<td valign="top">Telephone</td>
+								<td>{BeneficeryTelephone}</td>
+							</tr>
+							<tr>
+								<td valign="top">Mobile</td>
+								<td>{BeneficeryMobile}</td>
+							</tr>
+							<tr>
+								<td valign="top">Address</td>
+								<td>{BeneficeryAddress}<br>
+									{BeneficeryZipCode}</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="15"></td>
+	</tr>
+	<tr>
+		<td height="18"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="50%"><strong>Pay-Out Agent Details </strong>
+					</td>
+					<td><strong>Payment Details</strong></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td bgcolor="#eeeeee" height="171"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="50%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td width="180" valign="top">Name</td>
+											<td>{PayOutAgentName}</td>
+										</tr>
+										<tr>
+											<td valign="top">Address</td>
+											<td>{PayOutAgentAddress}</td>
+										</tr>
+										<tr>
+											<td valign="top">Telephone</td>
+											<td>{PayOutAgentTelephone}</td>
+										</tr>
+										<tr bgcolor="#ffffff">
+											<td valign="top"><strong>Bank Details</strong></td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<td valign="top">Bank Account No
+											</td>
+											<td>{BeneficeryBankAccountNumber}</td>
+										</tr>
+										<tr>
+											<td valign="top">Bank Name
+											</td>
+											<td>{BeneficeryBankName}</td>
+										</tr>
+										<tr>
+											<td valign="top">Bank Branch Name
+											</td>
+											<td>{BeneficeryBankBranchName}</td>
+										</tr>
+										<tr>
+											<td valign="top">Bank Address
+											</td>
+											<td>{BeneficeryBankAddress}</td>
+										</tr>
+										<tr>
+											<td valign="top">Bank Zip Code</td>
+											<td>{BeneficeryBankZip}</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+										<tr valign="top">
+											<td width="220" height="33">Local Currency [{LocalCurrencyCode}]
+											</td>
+											<td height="33"><strong>{LocalCurrencyAmount}</strong></td>
+										</tr>
+										<tr valign="top">
+											<td height="33">Commission Charge [{LocalCurrencyCode}]
+											</td>
+											<td height="33">{CommissionCharge}</td>
+										</tr>
+										<tr valign="top">
+											<td height="33"><strong>Total Payable [{LocalCurrencyCode}] </strong>
+											</td>
+											<td height="33"><strong>{TotalPayable}</strong></td>
+										</tr>
+										<tr valign="top">
+											<td height="33">Exchange Rate
+											</td>
+											<td height="33">{ExchangeRate}</td>
+										</tr>
+										<tr valign="top">
+											<td height="33">Foreign Currency [<strong>{ForeignCurrencyCode}</strong>]
+											</td>
+											<td height="33"><strong>{ForeignCurrencyAmount}</strong></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="48">
+			<p align="center">===================================================<font face="Verdana" size="1"><b><i><br>
+							Your name goes into the 1 - 2 ka 4 Draw. 1st Draw is on 3rd June, 2005.<br>
+							Weekly draws on every Friday. Mega Draw for Apartment on 22nd July, 2005.
+							<br>
+							Retain this receipt as a proof of transaction.**<br>
+						</i></b></font>===================================================</p>
+		</td>
+	</tr>
+	<tr>
+		<td height="50"><div align="justify"><font size="1">It is understood by me/us that should 
+					the instrument, through no fault of the company be unpaid, I/We can only 
+					reclaim the value thereof at company's buying rate of the day when the refund 
+					takes place. The refund cannot be effected until I/we return the original 
+					instrument/reciept/invoice and the company has received definite advice from 
+					their correspondents that the instrument is unpaid and that the original 
+					instructions have been cancelled. I/we confirm that the funds for this 
+					remittance are made available from legal sources allowed as per the laws of the 
+					country. I/we have no objection to any due diligence/compliance procedures 
+					undertaken by you as required by the regulatory authority of the country and 
+					I/We have provided the requisite IDs as per regulations. </font>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td height="48">&nbsp;</td>
+	</tr>
+	<tr>
+		<td height="38"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="BORDER-RIGHT:black 1px solid; BORDER-TOP:black 1px solid; BORDER-LEFT:black 1px solid; BORDER-BOTTOM:black 1px solid">
+				<tr>
+					<td width="33%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td align="center">Remitter Signature</td>
+							</tr>
+						</table>
+					</td>
+					<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td align="center">Operator Signature
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td width="33%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td align="center">Cashier Signature
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="16"></td>
+	</tr>
+	<tr>
+		<td height="14"><font size="1">I/We have collected the requisite IDs as per 
+				regulations.</font></td>
+	</tr>
+	<tr>
+		<td height="34"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>
+						Signature</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<p><b><font face="Tahoma" size="1">** Conditions Apply</font></b></p>

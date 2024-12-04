@@ -1,0 +1,211 @@
+BODY
+{
+    FONT-SIZE: 8pt;
+    COLOR: #996600;
+    FONT-FAMILY: Tahoma, Arial Verdana;
+    BACKGROUND-COLOR: #fff7e8
+}
+A.link1 {
+	FONT-SIZE: 11px; COLOR: #064a79;
+    FONT-FAMILY: Tahoma, Arial VerdanaTEXT-DECORATION: none
+}
+A.link1:hover {
+	FONT-SIZE: 11px; COLOR: #f7342d; 
+    FONT-FAMILY: Tahoma, Arial VerdanaTEXT-DECORATION: none
+}
+A.link2 {
+	FONT-SIZE: 11px; COLOR: #829658;
+    FONT-FAMILY: Tahoma, Arial VerdanaTEXT-DECORATION: none
+}
+A.link2:hover {
+	FONT-SIZE: 11px; COLOR: #f7342d; 
+    FONT-FAMILY: Tahoma, Arial VerdanaTEXT-DECORATION: none
+}
+A.link3 {
+	FONT-SIZE: 11px; COLOR: #ff9900; 
+    FONT-FAMILY: Tahoma, Arial VerdanaTEXT-DECORATION: none
+}
+A.link3:hover {
+	FONT-SIZE: 11px; COLOR: #f7342d; 
+    FONT-FAMILY: Tahoma, Arial VerdanaTEXT-DECORATION: none
+}
+A:active
+{
+    FONT-FAMILY: Tahoma, Arial Verdana
+	text-decoration: none;
+
+}
+A:link
+{
+    FONT-FAMILY: Tahoma, Arial Verdana
+	text-decoration: none;
+
+}
+A:visited
+{
+    FONT-FAMILY: Tahoma, Arial Verdana
+	text-decoration: none;
+
+}
+A:hover
+{
+    FONT-FAMILY: Tahoma, Arial Verdana
+	text-decoration: underline;
+
+}
+.MainHeading
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 17pt;
+    COLOR: #996600;
+    FONT-FAMILY: 'Comic Sans MS', Tahoma, Arial Verdana
+}
+.SubHeading
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10pt;
+    COLOR: #996600;
+    FONT-FAMILY: Tahoma, Arial Verdana
+}
+.Heading
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 9pt;
+    COLOR: #996600;
+    FONT-FAMILY: Tahoma, Arial Verdana
+}
+.TableHead
+{
+    FONT-SIZE: 9pt;
+    COLOR: black;
+    FONT-FAMILY: Tahoma, Arial Verdana;
+    BACKGROUND-COLOR: lightgrey
+}
+.HeadingWithBackGround
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 9pt;
+    TEXT-TRANSFORM: capitalize;
+    COLOR: white;
+    FONT-FAMILY: Tahoma, Arial Verdana;
+    BACKGROUND-COLOR: #996600;
+    TEXT-ALIGN: center
+}
+.HeadingBackGroundLeft
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 9pt;
+    TEXT-TRANSFORM: capitalize;
+    COLOR: white;
+    FONT-FAMILY: Tahoma, Arial Verdana;
+    BACKGROUND-COLOR: #996600;
+    TEXT-ALIGN: Left
+}
+TABLE
+{
+    FONT-SIZE: 9pt;
+    COLOR: #996600;
+    FONT-FAMILY: Tahoma, Arial Verdana
+}
+.CustomerName
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10pt;
+    TEXT-TRANSFORM: capitalize;
+    COLOR: darkgoldenrod;
+    FONT-FAMILY: Tahoma, Arial Verdana
+}
+.MainHeadingWithBackGround
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 18pt;
+    TEXT-TRANSFORM: uppercase;
+    COLOR: #c08abc;
+    FONT-FAMILY: 'Comic Sans MS', Tahoma, Arial, Verdana;
+    BACKGROUND-COLOR: #996600
+}
+.contact
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Tahoma, Arial, Verdana
+}
+.LightBackground
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 9pt;
+    COLOR: #996600;
+    FONT-FAMILY: Tahoma, Arial, Verdana;
+    BACKGROUND-COLOR: #fff7e8
+}
+.TableBackGround
+{
+    BACKGROUND-COLOR: #ffe6b5
+}
+HR
+{
+    COLOR: #996600
+}
+.Border
+{
+    FONT-SIZE: 11px;
+    COLOR: #ffe6b5;
+    FONT-FAMILY: Tahoma, Arial, Verdana;
+    Border: 1px Solid #996600;
+
+}
+.Border2
+{
+	FONT-WEIGHT: bolder;
+	FONT-SIZE: 10pt;
+	COLOR: #ffe6b5;
+	FONT-FAMILY: Tahoma, Arial, Verdana;
+	BACKGROUND-COLOR: #996600;
+	border: medium inset #FFFFFF;
+
+}
+.OddRowContent
+{
+    COLOR: #996600;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: thistle
+}
+.EvenRowContent
+{
+    COLOR: #996600;
+    BACKGROUND-COLOR: #efe1ff
+}
+.Title
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 17pt;
+    COLOR: #996600;
+    FONT-FAMILY: Tahoma, Arial, Verdana;
+    TEXT-ALIGN: center
+}
+.Buttons
+{
+    BORDER-RIGHT: black 1px double;
+    BORDER-TOP: black 1px double;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: black 1px double;
+    WIDTH: 50px;
+    BORDER-BOTTOM: black 1px double;
+    HEIGHT: 16px
+}
+.TextBox
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: black 1px solid;
+    WIDTH: 130px;
+    COLOR: black;
+    BORDER-BOTTOM: black 1px solid;
+    FONT-FAMILY: Tahoma, Arial, Verdana
+}
+.contact
+{
+COLOR: black;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Tahoma, Arial Verdana
+}

@@ -1,0 +1,139 @@
+﻿
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly's progress.
+The file is located at c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly's progress.
+The file is located at c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly's progress.
+The file is located at c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly's progress.
+The file is located at c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly's progress.
+The file is located at c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly's progress.
+The file is located at c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog.
+
+The uninstall has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the c:\project\smartphi\service\smartp~1\bin\smartphischeduler.exe assembly's progress.
+The file is located at c:\project\smartphi\service\smartp~1\bin\smartphischeduler.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the c:\project\smartphi\service\smartp~1\bin\smartphischeduler.exe assembly's progress.
+The file is located at c:\project\smartphi\service\smartp~1\bin\smartphischeduler.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the c:\project\smartphi\service\smartp~1\bin\smartphischeduler.exe assembly's progress.
+The file is located at c:\project\smartphi\service\smartp~1\bin\smartphischeduler.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly's progress.
+The file is located at c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog.
+An exception occurred during the uninstallation of the System.Configuration.Install.AssemblyInstaller installer.
+System.ArgumentException: The savedState dictionary contains inconsistent data and might have been corrupted.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+
+The uninstall has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly's progress.
+The file is located at c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog.
+An exception occurred during the uninstallation of the System.Configuration.Install.AssemblyInstaller installer.
+System.ArgumentException: The savedState dictionary contains inconsistent data and might have been corrupted.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly's progress.
+The file is located at c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly's progress.
+The file is located at c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly's progress.
+The file is located at c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog.
+
+The uninstall has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly's progress.
+The file is located at c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog.
+
+The uninstall has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly's progress.
+The file is located at c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog.
+
+The uninstall has completed.
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly's progress.
+The file is located at c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly's progress.
+The file is located at c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.
+
+
+The uninstall is beginning.
+See the contents of the log file for the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly's progress.
+The file is located at c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog.
+
+The uninstall has completed.

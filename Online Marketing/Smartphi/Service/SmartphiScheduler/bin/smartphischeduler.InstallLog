@@ -1,0 +1,109 @@
+﻿Installing assembly 'c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe'.
+Affected parameters are:
+   assemblypath = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe
+   logfile = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog
+Installing service SmartphiScheduler...
+Service SmartphiScheduler has been successfully installed.
+Creating EventLog source SmartphiScheduler in log Application...
+Committing assembly 'c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe'.
+Affected parameters are:
+   assemblypath = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe
+   logfile = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog
+Uninstalling assembly 'c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe'.
+Affected parameters are:
+   assemblypath = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe
+   logfile = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog
+Removing EventLog source SmartphiScheduler.
+Service SmartphiScheduler is being removed from the system...
+Service SmartphiScheduler was successfully removed from the system.
+Installing assembly 'c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe'.
+Affected parameters are:
+   assemblypath = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe
+   logfile = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog
+Installing service SmartphiScheduler...
+Service SmartphiScheduler has been successfully installed.
+Creating EventLog source SmartphiScheduler in log Application...
+Committing assembly 'c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe'.
+Affected parameters are:
+   assemblypath = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe
+   logfile = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog
+Uninstalling assembly 'c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe'.
+Affected parameters are:
+   assemblypath = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe
+   logfile = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog
+Removing EventLog source SmartphiScheduler.
+Service SmartphiScheduler is being removed from the system...
+Service SmartphiScheduler was successfully removed from the system.
+Uninstalling assembly 'c:\project\smartphi\service\smartp~1\bin\smartphischeduler.exe'.
+Affected parameters are:
+   assemblypath = c:\project\smartphi\service\smartp~1\bin\smartphischeduler.exe
+   logfile = c:\project\smartphi\service\smartp~1\bin\smartphischeduler.InstallLog
+Removing EventLog source SmartphiScheduler.
+Warning: The source SmartphiScheduler is not registered on the local machine.
+Service SmartphiScheduler is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'c:\project\smartphi\service\smartp~1\bin\smartphischeduler.exe'.
+Affected parameters are:
+   assemblypath = c:\project\smartphi\service\smartp~1\bin\smartphischeduler.exe
+   logfile = c:\project\smartphi\service\smartp~1\bin\smartphischeduler.InstallLog
+Installing service SmartphiScheduler...
+Service SmartphiScheduler has been successfully installed.
+Creating EventLog source SmartphiScheduler in log Application...
+Committing assembly 'c:\project\smartphi\service\smartp~1\bin\smartphischeduler.exe'.
+Affected parameters are:
+   assemblypath = c:\project\smartphi\service\smartp~1\bin\smartphischeduler.exe
+   logfile = c:\project\smartphi\service\smartp~1\bin\smartphischeduler.InstallLog
+Uninstalling assembly 'c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe'.
+Affected parameters are:
+   assemblypath = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe
+   logfile = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly.
+Uninstalling assembly 'c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe'.
+Affected parameters are:
+   assemblypath = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe
+   logfile = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly.
+Installing assembly 'c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe'.
+Affected parameters are:
+   assemblypath = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe
+   logfile = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly.
+Committing assembly 'c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe'.
+Affected parameters are:
+   assemblypath = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe
+   logfile = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly.
+Remove InstallState file because there are no installers.
+Uninstalling assembly 'c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe'.
+Affected parameters are:
+   assemblypath = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe
+   logfile = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly.
+Uninstalling assembly 'c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe'.
+Affected parameters are:
+   assemblypath = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe
+   logfile = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly.
+Uninstalling assembly 'c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe'.
+Affected parameters are:
+   assemblypath = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe
+   logfile = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly.
+Installing assembly 'c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe'.
+Affected parameters are:
+   assemblypath = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe
+   logfile = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly.
+Committing assembly 'c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe'.
+Affected parameters are:
+   assemblypath = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe
+   logfile = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly.
+Remove InstallState file because there are no installers.
+Uninstalling assembly 'c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe'.
+Affected parameters are:
+   assemblypath = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe
+   logfile = c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.InstallLog
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the c:\project\smartphi\service\smartphischeduler\bin\smartphischeduler.exe assembly.

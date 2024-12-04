@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRTest", "CRTest.csproj", "{3D85AA36-025F-40AA-939F-C8EB14B4944E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3D85AA36-025F-40AA-939F-C8EB14B4944E}.Debug.ActiveCfg = Debug|.NET
+		{3D85AA36-025F-40AA-939F-C8EB14B4944E}.Debug.Build.0 = Debug|.NET
+		{3D85AA36-025F-40AA-939F-C8EB14B4944E}.Release.ActiveCfg = Release|.NET
+		{3D85AA36-025F-40AA-939F-C8EB14B4944E}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

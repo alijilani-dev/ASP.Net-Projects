@@ -1,0 +1,160 @@
+BODY {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #13476e; LINE-HEIGHT: 16px; FONT-FAMILY: Tahoma, Verdana, Arial; BACKGROUND-COLOR: white; TEXT-ALIGN: left
+}
+.ContactInfo {
+	FONT-SIZE: 11px; COLOR: #FFFFFF; FONT-FAMILY: Tahoma, Arial
+}
+.text {
+	FONT-SIZE: 12px; COLOR: #595959; FONT-FAMILY: Tahoma, Arial
+}
+A {
+	FONT-SIZE: 12px; COLOR: #666666; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #f7342d; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+INPUT {
+	FONT-SIZE: 12px; FONT-FAMILY: Verdana
+}
+SELECT {
+	FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Arial
+}
+TEXTAREA {
+	FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Arial
+}
+.Normal {
+	FONT-SIZE: 12px; COLOR: #595959; FONT-FAMILY: Tahoma, Arial
+}
+.Small {
+	FONT-SIZE: 10px; COLOR: #829658; FONT-FAMILY: Tahoma, Arial
+}
+.Heading {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #595959; FONT-FAMILY: Tahoma, Arial
+}
+.BigHeading {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #595959; FONT-FAMILY: Tahoma, Arial
+}
+A.Footer {
+	FONT-SIZE: 12px; COLOR: #224b8e; FONT-FAMILY: Tahoma, Arial
+}
+a:hover.Footer {
+	FONT-SIZE: 12px; COLOR: #f7342d; FONT-FAMILY: Tahoma, Arial
+}
+A.link1 {
+	FONT-SIZE: 12px; COLOR: #064a79; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+a:hover.link1 {
+	FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+A.link2 {
+	FONT-SIZE: 12px; COLOR: #829658; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+a:hover.link2 {
+	FONT-SIZE: 12px; COLOR: #f7342d; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+A.link3 {
+	FONT-SIZE: 12px; COLOR: #ff9900; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+a:hover.link3 {
+	FONT-SIZE: 12px; COLOR: #f7342d; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+A.link4 {
+	FONT-SIZE: 12px; COLOR: #829658; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+a:hover.link4 {
+	FONT-SIZE: 12px; COLOR: #064a79; FONT-FAMILY: Tahoma, Arial; TEXT-DECORATION: none
+}
+A.link5 {
+	FONT-SIZE: 11px; COLOR: #064a79;
+    FONT-FAMILY: Verdana, Tahoma, Arial;
+TEXT-DECORATION: none
+}
+
+a:hover.link5 {
+FONT-SIZE: 11px; COLOR: #f7342d; 
+FONT-FAMILY: Verdana, Tahoma, Arial;
+TEXT-DECORATION: none
+}
+.Boxes {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; FONT-SIZE: 10px; BORDER-LEFT: 1px solid; WIDTH: 130px; COLOR: black; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Tahoma, Arial
+}
+.content {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #13476e; LINE-HEIGHT: 16px; FONT-FAMILY: Tahoma, Verdana, Arial; TEXT-ALIGN: left
+}
+A.menu {
+	FONT-SIZE: 12px; COLOR: #30516f; FONT-FAMILY: Tahoma, Verdana, Arial; TEXT-DECORATION: none
+}
+a:hover.menu {
+	FONT-SIZE: 12px; COLOR: #f7342d; FONT-FAMILY: Tahoma, Verdana, Arial; TEXT-DECORATION: none
+}
+.buttons1 {
+	BORDER-RIGHT: #9a5a66 1px solid; BORDER-TOP: #999999 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12px; BORDER-LEFT: #999999 1px solid; COLOR: #8a0e02; BORDER-BOTTOM: #9a5a66 1px solid; FONT-FAMILY: Tahoma, Verdana, Arial; BACKGROUND-COLOR: #f4f6fa
+}
+.Buttons {
+
+}
+.TextBox {
+	BORDER-RIGHT: #C0C0C0 1px solid; BORDER-TOP: #C0C0C0 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #C0C0C0 1px solid; WIDTH: 200px; COLOR: Black; BORDER-BOTTOM: #C0C0C0 1px solid; FONT-FAMILY: Verdana
+}
+.MainHeading {
+	FONT-WEIGHT: bolder; FONT-SIZE: 17pt; COLOR: #666666; FONT-FAMILY: 'Comic Sans MS', Tahoma, Arial Verdana
+}
+.SubHeading {
+	FONT-WEIGHT: bolder; FONT-SIZE: 10pt; COLOR: #666666; FONT-FAMILY: Tahoma, Arial Verdana
+}
+.Heading {
+	FONT-WEIGHT: bolder; FONT-SIZE: 9pt; COLOR: #666666; FONT-FAMILY: Tahoma, Arial Verdana
+}
+.TableHead {
+	FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: Tahoma, Arial Verdana; BACKGROUND-COLOR: lightgrey
+}
+.HeadingWithBackGround {
+	padding:5px; FONT-WEIGHT: bolder; FONT-SIZE: 9pt; TEXT-TRANSFORM: none; COLOR: #FFFFFF; FONT-FAMILY: Tahoma, "Arial Verdana"; BACKGROUND-COLOR: #B0B0B0; TEXT-ALIGN: left
+}
+TABLE {
+	FONT-SIZE: 9pt; COLOR: #666666; FONT-FAMILY: Tahoma, Arial Verdana
+}
+.CustomerName {
+	FONT-WEIGHT: bolder; FONT-SIZE: 10pt; TEXT-TRANSFORM: capitalize; COLOR: darkgoldenrod; FONT-FAMILY: Tahoma, Arial Verdana
+}
+.MainHeadingWithBackGround {
+	FONT-WEIGHT: bolder; FONT-SIZE: 18pt; TEXT-TRANSFORM: uppercase; COLOR: #c08abc; FONT-FAMILY: 'Comic Sans MS', Tahoma, Arial, Verdana; BACKGROUND-COLOR: #666666
+}
+.contact {
+	FONT-SIZE: 12px; FONT-FAMILY: Tahoma, Arial, Verdana
+}
+.LightBackground {
+	FONT-WEIGHT: bolder; FONT-SIZE: 9pt; COLOR: #666666; FONT-FAMILY: Tahoma, Arial, Verdana; BACKGROUND-COLOR: lightyellow
+}
+.TableBackGround {
+	BACKGROUND-COLOR: #f3f3f3
+}
+HR {
+	COLOR: #666666
+}
+.Border1 {
+	FONT-WEIGHT: bolder; FONT-SIZE: 20pt; COLOR: #f3f3f3; FONT-FAMILY: 'Comic Sans MS', Tahoma, Arial, Verdana; BACKGROUND-COLOR: #666666
+}
+.Border2 {
+	FONT-WEIGHT: bolder; FONT-SIZE: 10pt; COLOR: #f3f3f3; FONT-FAMILY: Tahoma, Arial, Verdana; BACKGROUND-COLOR: #666666
+}
+.OddRowContent {
+	COLOR: #666666; FONT-FAMILY: Arial; BACKGROUND-COLOR: thistle
+}
+.EvenRowContent {
+	COLOR: #666666; BACKGROUND-COLOR: #efe1ff
+}
+.RowContent {
+	COLOR: #666666; FONT-FAMILY: Arial; BACKGROUND-COLOR: #C7FCE1
+}
+.Title {
+	FONT-WEIGHT: bolder; FONT-SIZE: 17pt; COLOR: #666666; FONT-FAMILY: Tahoma, Arial, Verdana; TEXT-ALIGN: center
+}
+TABLE.frame {
+	BORDER-RIGHT: #003399 2px solid; BORDER-TOP: #003399 2px solid; BORDER-LEFT: #003399 2px solid; BORDER-BOTTOM: #003399 2px solid
+}
+.siz {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}

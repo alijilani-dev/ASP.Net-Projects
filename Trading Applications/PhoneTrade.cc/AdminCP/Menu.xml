@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<menu>
+	<menuItem>
+		<text>News</text>
+		<url>News.aspx</url> 
+		<target>Body</target>
+	</menuItem> 
+	<menuItem>
+		<text>Press Release</text>
+		<url>PressReleases.aspx</url> 
+		<target>Body</target>
+	</menuItem> 
+	<menuItem>
+		<text>Main Links</text>
+		<url>MainLinks.aspx</url> 
+		<target>Body</target>
+	</menuItem> 
+	<menuItem>
+		<text>Mobile Review</text>
+		<url>MobileReviews.aspx</url> 
+		<target>Body</target>
+	</menuItem> 
+	<menuItem>
+		<text>Testimonials</text>
+		<url>Testimonials.aspx</url> 
+		<target>Body</target>
+	</menuItem> 
+	<menuItem>
+		<text>Country</text>
+		<url>Country.aspx</url> 
+		<target>Body</target>
+	</menuItem> 
+	<menuItem>
+		<text>Member Details</text>
+		<url>MemberDetails.aspx</url> 
+		<target>Body</target>
+	</menuItem> 
+</menu>
+

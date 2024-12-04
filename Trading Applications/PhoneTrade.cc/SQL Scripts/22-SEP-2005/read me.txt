@@ -1,0 +1,13 @@
+add a module in module table
+
+find the link id from main_links
+
+then find the rows which matched in module_links
+
+and updatethe module id appropriately
+
+
+
+
+
+

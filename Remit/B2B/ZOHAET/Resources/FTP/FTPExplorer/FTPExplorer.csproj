@@ -1,0 +1,277 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "FTPExplorer"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "IE32Nav30"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "FTPExplorer"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "0"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "0"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "mscorlib"
+                    AssemblyName = "mscorlib"
+                />
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.WinForms"
+                    AssemblyName = "System.WinForms"
+                />
+                <Reference
+                    Name = "System.Diagnostics"
+                    AssemblyName = "System.Diagnostics"
+                />
+                <Reference
+                    Name = "System.Configuration"
+                    AssemblyName = "System.Configuration"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "Microsoft.Win32.Interop"
+                    AssemblyName = "Microsoft.Win32.Interop"
+                />
+                <Reference
+                    Name = "System.Net"
+                    AssemblyName = "System.Net"
+                />
+                <Reference
+                    Name = "System.DirectoryServices"
+                    AssemblyName = "System.DirectoryServices"
+                />
+                <Reference
+                    Name = "System.IO"
+                    AssemblyName = "System.IO"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "About.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AboutDlg.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AboutDlg.resx"
+                    DependentUpon = "AboutDlg.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Client.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Close.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Configure.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ConfigureDlg.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ConfigureDlg.resx"
+                    DependentUpon = "ConfigureDlg.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ConnectDlg.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ConnectDlg.resx"
+                    DependentUpon = "ConnectDlg.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CreateFolder.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CreateFolderDlg.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CreateFolderDlg.resx"
+                    DependentUpon = "CreateFolderDlg.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "DeleteFile.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ExplorerDlg.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ExplorerDlg.resx"
+                    DependentUpon = "ExplorerDlg.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FileDownload.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "FileUpload.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "FolderClose.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "FolderOpen.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "FTPClient.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FTPExplorer.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "FTPFileList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Refresh.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "RemoveFolder.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Server.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ServerConnect.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ServerConnectLarge.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ServerDisConnect.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SysInfo.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SystemInfo.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SystemInfoDlg.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SystemInfoDlg.resx"
+                    DependentUpon = "SystemInfoDlg.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TreeRoot.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "VSDOTNET.bmp"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

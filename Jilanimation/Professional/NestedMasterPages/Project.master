@@ -1,0 +1,107 @@
+<%@ Master Language="VB" CodeFile="Project.master.vb" Inherits="Professional_Project" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Jilanimation</title>
+    <!--<asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>-->
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <link rel="stylesheet" href="../styles/jil_layout.css" type="text/css" />
+    <script type="text/javascript" src="../scripts/jquery.js"></script>
+    <script type="text/javascript" src="../scripts/jquery.innerfade.js"></script>
+</head>
+<body id="top">
+    <form id="form1" runat="server">
+<div class="wrapper col1">
+  <div id="header">
+    <div id="logo">
+      <h1><a href="#">Jilanimation</a></h1>
+      <p>Get the truth before the truth gets you..</p>
+    </div>
+    <div id="search">
+        <fieldset>
+        <legend>Site Search</legend>
+        <input type="text" value="Site search comming soon&hellip;"  onfocus="this.value=(this.value=='Site search comming soon&hellip;')? '' : this.value ;" />
+        <input type="submit" name="go" id="go" value="GO" />
+        </fieldset>
+      </div>
+    <div id="topnav">
+      <ul>
+        <li class="last"><a href="../contact.aspx">Contact</a></li>
+        <li><a href="distinctions.aspx">Distinctions</a></li>
+        <li class="active"><a href="professional.aspx">Professional</a>
+          <ul>
+            <li><a href="professional.aspx">Academic</a></li>
+            <li><a href="professional.aspx">Co-curricular</a></li>
+            <li><a href="professional.aspx">Extra-curricular</a></li>
+          </ul>
+        </li>
+        <li><a href="../personal/personal.aspx">Personal</a></li>
+        <li><a href="../index.aspx">Home</a></li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+        <asp:ContentPlaceHolder id="ContentPlaceHolderProject" runat="server"></asp:ContentPlaceHolder>
+<!-- ####################################################################################################### -->
+
+<div class="wrapper col4">
+  <div id="footer">
+    <div id="newsletter">
+      <h2>Stay In The Know !</h2>
+      <p>Please enter your email to join our mailing list</p>
+        <fieldset>
+        <legend>News Letter</legend>
+        <input type="text" value="Enter Email Here&hellip;"  onfocus="this.value=(this.value=='Enter Email Here&hellip;')? '' : this.value ;" />
+        <input type="submit" name="news_go" id="news_go" value="GO" />
+        </fieldset>
+      <p>To unsubscribe please <a href="#">click here &raquo;</a></p>
+    </div>
+    <div class="footbox">
+      <h2>Management Links</h2>
+      <ul>
+        <li><a href="#">Project Management</a></li>
+        <li><a href="#">Service Management</a></li>
+        <li><a href="#">Document Management</a></li>
+        <li><a href="#">Content Management</a></li>
+        <li class="last"><a href="#">Knowledge Management</a></li>
+      </ul>
+    </div>
+    <div class="footbox">
+      <h2>Software Links</h2>
+      <ul>
+        <li><a href="#">Opentext</a></li>
+        <li><a href="#">KOFAX</a></li>
+        <li><a href="#">Microsoft Sharepoint</a></li>
+        <li><a href="#">Microsoft Dynamics</a></li>
+        <li class="last"><a href="#">Microsoft Project</a></li>
+      </ul>
+    </div>
+    <div class="footbox">
+      <h2>Development Links</h2>
+      <ul>
+        <li><a href="#">Code Project</a></li>
+        <li><a href="#">ASP.Net</a></li>
+        <li><a href="#">iNeta Gulf</a></li>
+        <li><a href="#">Mobile Development</a></li>
+        <li class="last"><a href="#">Xilinx</a></li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col5">
+  <div id="copyright">
+    <p class="fl_left">Copyright &copy; 2010 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Last Updated: 25th December 2011.</p>
+    <br class="clear" />
+  </div>
+</div>
+    </form>
+</body>
+</html>

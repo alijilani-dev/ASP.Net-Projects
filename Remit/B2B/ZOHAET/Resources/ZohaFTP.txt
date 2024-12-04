@@ -1,0 +1,3 @@
+address = ftp://65.223.147.201/
+user = SpeedRemit
+pass = zohaindia

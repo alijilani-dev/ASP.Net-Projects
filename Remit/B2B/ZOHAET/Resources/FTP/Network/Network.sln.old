@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Network", "Network.csproj", "{A99216D8-80B7-45E5-8E7A-E4D5E2A7E010}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A99216D8-80B7-45E5-8E7A-E4D5E2A7E010}.Debug.ActiveCfg = Debug|.NET
+		{A99216D8-80B7-45E5-8E7A-E4D5E2A7E010}.Debug.Build.0 = Debug|.NET
+		{A99216D8-80B7-45E5-8E7A-E4D5E2A7E010}.Release.ActiveCfg = Release|.NET
+		{A99216D8-80B7-45E5-8E7A-E4D5E2A7E010}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

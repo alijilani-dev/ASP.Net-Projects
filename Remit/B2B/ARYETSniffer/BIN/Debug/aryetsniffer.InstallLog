@@ -1,0 +1,116 @@
+﻿Installing assembly 'd:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe'.
+Affected parameters are:
+   assemblypath = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe
+   logfile = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.InstallLog
+Installing service ARYETSniffer...
+Service ARYETSniffer has been successfully installed.
+Creating EventLog source ARYETSniffer in log Application...
+Committing assembly 'd:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe'.
+Affected parameters are:
+   assemblypath = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe
+   logfile = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.InstallLog
+Installing assembly 'd:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe'.
+Affected parameters are:
+   assemblypath = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe
+   logfile = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.InstallLog
+Installing service ARYETSniffer...
+Creating EventLog source ARYETSniffer in log Application...
+Rolling back assembly 'd:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe'.
+Affected parameters are:
+   assemblypath = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe
+   logfile = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.InstallLog
+Restoring event log to previous state for source ARYETSniffer.
+Uninstalling assembly 'd:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe'.
+Affected parameters are:
+   assemblypath = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe
+   logfile = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.InstallLog
+Removing EventLog source ARYETSniffer.
+Service ARYETSniffer is being removed from the system...
+Service ARYETSniffer was successfully removed from the system.
+Installing assembly 'd:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe'.
+Affected parameters are:
+   assemblypath = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe
+   logfile = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.InstallLog
+Installing service ARYETSniffer...
+Service ARYETSniffer has been successfully installed.
+Creating EventLog source ARYETSniffer in log Application...
+Committing assembly 'd:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe'.
+Affected parameters are:
+   assemblypath = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe
+   logfile = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.InstallLog
+Uninstalling assembly 'd:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe'.
+Affected parameters are:
+   assemblypath = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe
+   logfile = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.InstallLog
+Removing EventLog source ARYETSniffer.
+Attempt to stop service ARYETSniffer.
+Service ARYETSniffer is being removed from the system...
+Service ARYETSniffer was successfully removed from the system.
+Installing assembly 'd:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe'.
+Affected parameters are:
+   assemblypath = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe
+   logfile = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.InstallLog
+Installing service ARYETSniffer...
+Service ARYETSniffer has been successfully installed.
+Creating EventLog source ARYETSniffer in log Application...
+Committing assembly 'd:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe'.
+Affected parameters are:
+   assemblypath = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe
+   logfile = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.InstallLog
+Uninstalling assembly 'd:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe'.
+Affected parameters are:
+   assemblypath = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe
+   logfile = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.InstallLog
+Removing EventLog source ARYETSniffer.
+Attempt to stop service ARYETSniffer.
+Service ARYETSniffer is being removed from the system...
+Service ARYETSniffer was successfully removed from the system.
+Installing assembly 'd:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe'.
+Affected parameters are:
+   assemblypath = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe
+   logfile = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.InstallLog
+Installing service ARYETSniffer...
+Service ARYETSniffer has been successfully installed.
+Creating EventLog source ARYETSniffer in log Application...
+Committing assembly 'd:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe'.
+Affected parameters are:
+   assemblypath = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe
+   logfile = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.InstallLog
+Uninstalling assembly 'd:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe'.
+Affected parameters are:
+   assemblypath = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe
+   logfile = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.InstallLog
+Removing EventLog source ARYETSniffer.
+Attempt to stop service ARYETSniffer.
+Service ARYETSniffer is being removed from the system...
+Service ARYETSniffer was successfully removed from the system.
+Installing assembly 'd:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe'.
+Affected parameters are:
+   assemblypath = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe
+   logfile = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.InstallLog
+Installing service ARYETSniffer...
+Service ARYETSniffer has been successfully installed.
+Creating EventLog source ARYETSniffer in log Application...
+Committing assembly 'd:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe'.
+Affected parameters are:
+   assemblypath = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe
+   logfile = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.InstallLog
+Uninstalling assembly 'd:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe'.
+Affected parameters are:
+   assemblypath = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe
+   logfile = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.InstallLog
+Removing EventLog source ARYETSniffer.
+Attempt to stop service ARYETSniffer.
+Service ARYETSniffer is being removed from the system...
+Service ARYETSniffer was successfully removed from the system.
+Installing assembly 'd:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe'.
+Affected parameters are:
+   assemblypath = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe
+   logfile = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.InstallLog
+Installing service ARYETSniffer...
+Service ARYETSniffer has been successfully installed.
+Creating EventLog source ARYETSniffer in log Application...
+Committing assembly 'd:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe'.
+Affected parameters are:
+   assemblypath = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.exe
+   logfile = d:\mexchange\aryetsniffer\bin\debug\aryetsniffer.InstallLog

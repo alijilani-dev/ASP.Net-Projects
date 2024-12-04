@@ -1,0 +1,71 @@
+<%@ Master Language="VB" MasterPageFile="~/Jilanimation.master" AutoEventWireup="false" CodeFile="Personal.master.vb" Inherits="Personal_MasterPage" %>
+
+<asp:Content ID="PlaceHolderPersonal" runat="server" ClientIDMode="AutoID" contentplaceholderid="ContentPlaceHolder2" EnableViewState="False" ViewStateMode="Disabled">
+    <div class="wrapper col2">
+   <div id="Dashboard">
+    <div class="subnav">
+    <h2>Personal</h2>
+    <ul>
+        <li><a href="religion_linguistics.aspx">Religion & Linguistics</a></li>
+        <li><a href="hobbies_interests.aspx">Hobbies & Interests</a>
+            <ul>
+                <li><a href="hobbies_interests.aspx">Personality Development</a></li>
+                <li><a href="hobbies_interests.aspx">Current Affairs</a></li>
+                <li><a href="hobbies_interests.aspx">Articles</a></li>
+            </ul>
+        </li>
+        <li><a href="technology_travel.aspx">Technology & Travel</a></li>
+    </ul>
+    </div>
+    
+
+<!-- ####################################################################################################### -->
+        <asp:ContentPlaceHolder ID="PlaceHolderPersonal" runat="server"></asp:ContentPlaceHolder>
+<!-- ####################################################################################################### -->
+  </div>
+</div>
+
+<div class="wrapper col3">
+  <div id="container">
+   <div id="latest">
+      <ul>
+        <li>
+          <h2>Religion</h2>
+          <p class="imgholder"><img src="../Images/demo/Religion.jpg" alt="" /></p>
+          <p>Root word of &quot;Islam&quot; is an arabic word &quot;Silm&quot; that means peace. <a href="#">More &raquo;</a></p>
+        </li>
+        <li>
+          <h2>Personality Development</h2>
+            <p class="imgholder">
+                <img src="../Images/demo/personality_development.jpg" alt="" /></p>
+            <p>
+                How to recognize, develop and improve good habits, skills. <a href="#">More &raquo;</a></p>
+        </li>
+        <li class="last">
+          <h2>Technology &amp; Travel</h2>
+          <p class="imgholder"><img src="../Images/demo/technology_travel.jpg" alt="" /></p>
+          <p>How use of technology should bring quality to human life. <a href="#">More &raquo;</a></p>
+        </li>
+      </ul>
+      <br class="clear" />
+    </div>
+    <div id="content">
+      <h2>Professional Articles</h2>
+      <p>A brief description about the articles available on variety of related topics to 
+          mark the upcomming trends in computing.</p>
+      <p>Article 1 by ABC pusblished on xx/xx/20xx can be viewed <a target="_blank" rel="nofollow" href="http://creativecommons.org/licenses/by-sa/3.0/">here.</a></p>
+      <p>Article 2 by ABC pusblished on xx/xx/20xx can be viewed <a target="_blank" rel="nofollow" href="http://creativecommons.org/licenses/by-sa/3.0/">here.</a></p>
+      <p>&nbsp;</p>
+    </div>
+
+    <div id="column">
+      <div class="holder">
+        <h2 class="title"><img src="../Images/demo/airplane.jpg" alt="" />Documents</h2>
+        <p>Resume (Ver.:01-04-2011).<a target="_blank" rel="nofollow" href="http://creativecommons.org/licenses/by-sa/3.0/"> > Download &raquo;</a></p>
+        <p>Biodata.<a target="_blank" rel="nofollow" href="http://creativecommons.org/licenses/by-sa/3.0/"> > Download &raquo;</a></p>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+</asp:Content>

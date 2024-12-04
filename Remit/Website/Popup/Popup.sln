@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Popup", "http://localhost/Popup/Popup.csproj", "{2C70E4E4-B778-4219-98AB-67D0B208E925}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2C70E4E4-B778-4219-98AB-67D0B208E925}.Debug.ActiveCfg = Debug|.NET
+		{2C70E4E4-B778-4219-98AB-67D0B208E925}.Debug.Build.0 = Debug|.NET
+		{2C70E4E4-B778-4219-98AB-67D0B208E925}.Release.ActiveCfg = Release|.NET
+		{2C70E4E4-B778-4219-98AB-67D0B208E925}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

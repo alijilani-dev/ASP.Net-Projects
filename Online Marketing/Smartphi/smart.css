@@ -1,0 +1,59 @@
+html, body
+{	margin: 0px;
+	padding: 0px;
+}
+.txt{
+	font-family: VERDANA;
+	font-size: 11px
+}
+table{
+	font-family: VERDANA;
+	font-size: 11px
+}
+.dropmenu{
+	font-family: Verdana;
+	font-size: 11px;
+	color: #263935;
+	border: 1px #CCCCCC solid;
+}
+
+.button {font-family: Verdana;
+	font-size: 11px;
+	color: #1548a6;
+	background-color: #D2E1F1;
+	border: 1px #1548a6 solid;
+	padding: 3px;
+	background-image: url(images/bg_buttons.gif);}
+
+.txtbox {FONT: 11px Verdana;
+	COLOR: #000000;
+	BACKGROUND-COLOR: #ffffff;
+	TEXT-DECORATION: none;
+	border: 1px solid #CCCCCC;
+}
+select {FONT: 11px Verdana;
+	COLOR: #000000;
+	BACKGROUND-COLOR: #ffffff;
+	TEXT-DECORATION: none;
+	border: 1px solid #CCCCCC;}
+
+textarea {	FONT: 11px Verdana;
+	COLOR: #000000;
+	BACKGROUND-COLOR: #ffffff;
+	TEXT-DECORATION: none;
+	border: 1px solid #CCCCCC;}
+
+.hdnnews{
+	font-family: VERDANA;
+	font-size: 12px;
+	color:#E96525;
+font-weight: bold;
+}
+
+.gridhead{
+	font-family: Verdana;
+	font-size: 11px;
+	color: #103352;
+	padding: 3px;
+	background-image: url(images/bg_buttons.gif);
+	border-bottom: 1px #AACCFF solid;}

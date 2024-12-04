@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="default.aspx" title="Jilanimation - Home"  description="Jilanimation - Home">
+        <siteMapNode url="index.aspx" title="Jilanimation - Home"  description="Jilanimation - Home" />
+        <siteMapNode url="personal.aspx" title="Jilanimation - Personal"  description="" />
+        <siteMapNode url="professional.aspx" title="Jilanimation - Professional"  description="">
+          <siteMapNode url="curricular.aspx" title="Jilanimation - Curricular"  description="" />
+          <siteMapNode url="pmp.aspx" title="Jilanimation - PMP"  description="" />
+          <siteMapNode url="itsm.aspx" title="Jilanimation - ITSM"  description="" />
+          <siteMapNode url="co-curricular.aspx" title=""  description="" />
+        <siteMapNode url="xtra-curricular.aspx" title=""  description="" />
+        <siteMapNode url="distinctions.aspx" title=""  description="" />
+        <siteMapNode url="contact.aspx" title=""  description="" />
+        <siteMapNode url="about.aspx" title=""  description="" />
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>

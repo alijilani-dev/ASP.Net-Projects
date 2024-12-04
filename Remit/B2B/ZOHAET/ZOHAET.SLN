@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZOHAET", "ZOHAET.csproj", "{3A7331CF-A8B5-4447-A640-8E7294610B25}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ZOHAETSetup", "..\ZOHAETSetup\ZOHAETSetup.vdproj", "{08550D66-1810-46C8-A975-C6C66EE6EFB0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3A7331CF-A8B5-4447-A640-8E7294610B25}.Debug.ActiveCfg = Debug|.NET
+		{3A7331CF-A8B5-4447-A640-8E7294610B25}.Debug.Build.0 = Debug|.NET
+		{3A7331CF-A8B5-4447-A640-8E7294610B25}.Release.ActiveCfg = Release|.NET
+		{3A7331CF-A8B5-4447-A640-8E7294610B25}.Release.Build.0 = Release|.NET
+		{08550D66-1810-46C8-A975-C6C66EE6EFB0}.Debug.ActiveCfg = Debug
+		{08550D66-1810-46C8-A975-C6C66EE6EFB0}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

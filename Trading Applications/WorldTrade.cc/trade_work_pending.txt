@@ -1,0 +1,51 @@
+1. Scrolling .. home page. dont need to write the VB prg now.. just scrolling text , with Valid data from the live phonetrade database. 
+2. Data transfer from old Data model to new .
+3. Trading floor to be like ppt... and with the layers working.  
+ ---->DONE [only country flag part is pending]
+
+In Trade Offers we have to show country flag ....
+---->so to put flag in country master
+
+Trade Offers 
+Models to be filtered on brands
+
+Give Proper Confirmation After every save /  update ... 
+for membes / trade offers etc..
+
+Members Log Out Option To be Kept..
+
+To Check The Entire Application once .... for bugs ..
+
+.
+Phone Secrets 
+Phone Secrets will be similar to Catalogue ...
+--> First show thumbnails of models 
+   ----> clicking on it will show the secrets of that model
+
+SCROLLING
+
+Phone Scroll
+To DIsplay Small Image, Brand n Model No
+--> On Clicking of model will take us to details of model
+
+
+News
+To Show Latest Announcements we can use the flag option .... or datewise ...]
+--> Clicking on any heading will open the details of that news in new window 
+
+[this can be taken up later on along with advanced search]
+
+Hot Offers [trade offer]
+To Show The latest [last] 25 offers ...... 
+--> Clicking on this will take us to offers of that particular model .. 
+
+
+New Members
+Members to be shown date wise .. we can show members added in last 1 day or last 1 week or so on ..
+
+
+this no of items to be shown is to be kept at database level
+In USP so tht we can modify whnever we want ..
+
+
+for STATIC pages we need to find out something quick ......

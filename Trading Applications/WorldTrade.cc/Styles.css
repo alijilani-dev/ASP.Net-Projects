@@ -1,0 +1,176 @@
+/* CSS Document */
+html, body {background-color: #FFF9F0;	margin: 0px;padding: 0px;}
+	
+A{text-decoration : none;}
+.normaltext{font-family : verdana;font-size : 11px;font-weight : normal;color : #000000; line-height: 12pt}
+.normaltextbold{font-family : verdana;font-size : 11px;font-weight : bold;color : #000000;}
+.normaltextbolditalic{font-family : verdana; font-style : italic; font-size : 11px; font-weight : bold; background-color : #3f8bd7; color : #000000;}
+.gridoffertype{ padding-left: 5px; }
+.griddetails{ padding-right: 5px; }
+.gridheader{font-family : verdana;font-size : 10px; font-weight : bold;color : #ffffff; line-height: 10px; background-color : #cf8e40; }
+.timetxt{font-family : verdana;font-size : 10px;font-weight : normal;color : #ffffff}
+.time{font-family : verdana;font-size : 10px;font-weight : bold;color : #ffffff}
+
+.box {
+	FONT: 11px Tahoma, Verdana, Arial, sans-serif;
+	COLOR: #000000;
+	BACKGROUND-COLOR: #ffffff;
+	TEXT-DECORATION: none;
+	border: 1px solid #CCCCCC;
+}
+.boxhdn {
+	FONT: 11px Verdana;
+	font-weight : bold;
+	COLOR: white;
+	TEXT-DECORATION: none;
+	}
+	
+.Memhdn {
+	font-weight : bold;
+	COLOR: Black;
+	TEXT-DECORATION: none;
+	font-family: Verdana;
+	font-size: 11px;
+	text-transform: uppercase;
+	}
+.error{font-family : verdana;font-size : 8pt;font-weight : normal;color : red; }
+
+
+.nmltxt{font-family : verdana;font-size : 11px;font-weight : normal;color : #568FBE; line-height: 12pt}
+.nmltxtbold{font-family : verdana;font-size : 11px;font-weight : bold;color : #568FBE;}
+.nmltxtbolditalic{font-family : verdana;font-style : italic;font-size : 11px;font-weight : bold;color : #568FBE;}
+
+.FAQtext{font-family : verdana;font-size : 11px;font-weight : normal;color : #616D79; line-height: 12pt}
+.FAQtextbold{font-family : verdana;font-size : 11px;font-weight : bold;color : #616D79;}
+a.FAQtext:hover {font-family : verdana;font-size : 11px;font-weight : normal;color : #616D79; text-decoration:underline;}
+
+.memenu {
+	font-family : verdana;
+	font-size : 10px;
+	font-weight : normal;
+	color : #616D79;
+	background-image: url(../images/bg_btn_members.gif);
+	background-repeat: no-repeat;
+	height: 21px;
+	width: 120px;
+	text-align: left;
+	top: 50px;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 18px;
+}
+a.memenu {font-weight : normal;}
+a.memenu:hover {color : blue;}
+
+.footer {font-family : verdana;font-size : 10px;font-weight : normal;color : #616D79; }
+a.footer {font-family : verdana;font-size : 10px;font-weight : normal;color : #616D79;}
+a.footer:hover {font-family : verdana;font-size : 10px;font-weight : normal;color : #blue; text-decoration:underline;}
+
+.normal{font-family : verdana;font-size : 11px;font-weight : normal;color : #0E3F7E; line-height: 12pt}
+.normalbold{font-family : verdana;font-size : 11px;font-weight : bold;color : #0E3F7E;}
+.normalbolditalic{font-family : verdana;font-style : italic;font-size : 11px;font-weight : bold;color : #0E3F7E;}
+
+.text{font-family : verdana;font-size : 10px;font-weight : normal;color : #0E3F7E; line-height: 12pt}
+.textbold{font-family : verdana;font-size : 10px;font-weight : bold;color : #0E3F7E;}
+.textbolditalic{font-family : verdana;font-style : italic;font-size : 11px;font-weight : bold;color : #0E3F7E;}
+
+.innertext{font-family : verdana;font-size : 12px;font-weight : normal;color : #B48533; line-height: 12pt}
+.innertextbold{font-family : verdana;font-size : 12px;font-weight : bold;color : #B48533;}
+.innertextbolditalic{font-family : verdana;font-style : italic;font-size : 13px;font-weight : bold;color : #B48533;}
+
+.innertxt{font-family : verdana;font-size : 12px;font-weight : normal;color : #4D5465; line-height: 12pt}
+.innertxtbold{font-family : verdana;font-size : 12px;font-weight : bold;color : #4D5465;}
+.innertxtbolditalic{font-family : verdana;font-style : italic;font-size : 13px;font-weight : bold;color : #4D5465;}
+
+
+.showhide
+{
+display:none;visibility:hidden;z-index:100;position:absolute;left:150px;background-color:#DFE5E8;border-color:Black;border-width:thick;
+}
+
+.detailtable
+{
+	border-width:thin;
+	background-color:#DFE5E8;
+	padding:1;
+	width:100%;
+}
+
+Table
+{
+	border:0px;
+	padding:0px;
+	word-spacing:0px;
+}
+.tdright
+{
+	border-right: 1px solid #FFFFFF;
+	border-bottom-width:2px;
+	border-bottom-color:#FFB154
+}
+.tdleft
+{
+	border-left: 1px solid #FFFFFF;
+	border-bottom-width:2px;
+	border-bottom-color:#FFB154
+}
+.tdtop
+{
+	border-top: 1px solid #FFFFFF;
+}
+.tdbottom
+{
+	border-bottom: 1px solid #FFFFFF;
+}
+.linkMember 
+{
+	font-family : Tahoma;font-size : 11px;font-weight : normal;color : #CF8E40; font-weight : bold;
+}
+A.linkMember 
+{
+	FONT-SIZE: 11px; COLOR: #CF8E40; FONT-FAMILY: Tahoma, Arial; text-transform: capitalize;
+}
+a:hover.linkMember 
+{
+	FONT-SIZE: 11px; COLOR: red; FONT-FAMILY: Tahoma, Arial; text-transform: capitalize;
+}
+a:active.linkMember 
+{
+	FONT-SIZE: 11px; COLOR: red; FONT-FAMILY: Tahoma, Arial; text-transform: capitalize;
+}
+.titleTd {
+	FONT-SIZE: 10px; COLOR: #B34700; FONT-FAMILY: verdana; font-weight : bold;
+}
+.tdcontact
+{
+	border-left: 1px solid #FFFFFF;
+	border-right: 2px solid #FFB154;
+	border-bottom-width:2px;
+	border-bottom-color:#FFB154;
+	padding:3px
+}
+.logoheader
+{
+	border-bottom-color:#FFB154
+}
+.tdlogo
+{
+	border-right: 1px solid #FFFFFF;
+	border-left: 2px solid #FFB154;
+	border-bottom-width:2px;
+	border-bottom-color:#FFB154;
+	padding:1px
+}
+#dhtmltooltip
+{
+position: absolute;
+width: 150px;
+border: 1px solid #3F8BD7;
+padding: 2px;
+background-color: lightyellow;
+visibility: hidden;
+z-index: 100;
+/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+}

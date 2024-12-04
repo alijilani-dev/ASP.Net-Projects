@@ -1,0 +1,343 @@
+<style type="text/css"> td { font-family:tahoma; font-size:12px; padding:1px; }
+	</style>
+<table width="100%" border="0" cellpadding="0">
+	<tr>
+		<td align="center"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="300" align="center"><img src="/images/layoutImages/logo.jpg"></td>
+					<td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="60" align="center">&nbsp;</td>
+								<td>{PayOutAgentName}</td>
+							</tr>
+							<tr>
+								<td align="center">&nbsp;</td>
+								<td>{PayOutAgentAddress}</td>
+							</tr>
+							<tr>
+								<td align="center">&nbsp;</td>
+								<td>Telephone: {PayOutAgentTelephone}</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="50" align="center"><font size="4">Speed Remit Receipt ({PaymentMode}) </font>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<p align="center">&nbsp;</p>
+		</td>
+	</tr>
+	<tr>
+		<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="80" align="right"><strong style="FONT-SIZE:16px">SRTR No: </strong>
+					</td>
+					<td width="15">&nbsp;</td>
+					<td><strong style="FONT-SIZE:16px">{TRNO} </strong>
+					</td>
+					<td width="150"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="40%" align="right"><strong>Sent on : </strong>
+								</td>
+								<td>{Date}</td>
+							</tr>
+							<tr>
+								<td width="40%" align="right"><strong>Today : </strong>
+								</td>
+								<td>{Today}</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="180"><strong>Purpose of Transfer : </strong>
+					</td>
+					<td><strong>{PurposeOfTransferName}</strong></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="15"></td>
+	</tr>
+	<tr>
+		<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="50%"><strong>Beneficiary Details </strong>
+					</td>
+					<td><strong>Remitter Details </strong>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td bgcolor="#eeeeee"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="50%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="100" valign="top">Name</td>
+								<td>{BeneficeryName}</td>
+							</tr>
+							<tr>
+								<td valign="top">Telephone</td>
+								<td>{BeneficeryTelephone}</td>
+							</tr>
+							<tr>
+								<td valign="top">Mobile</td>
+								<td>{BeneficeryMobile}</td>
+							</tr>
+							<tr>
+								<td valign="top">Address</td>
+								<td>{BeneficeryAddress}<br>
+									{BeneficeryZipCode}</td>
+							</tr>
+							<tr>
+								<td valign="top">ID type
+								</td>
+								<td>{BeneficeryProvidedIdType}</td>
+							</tr>
+							<tr>
+								<td valign="top">ID Details
+								</td>
+								<td>{BeneficeryProvidedIdDetails}</td>
+							</tr>
+							<tr>
+								<td valign="top">ID Expiry
+								</td>
+								<td>{BeneficeryProvidedIdExpiry}</td>
+							</tr>
+						</table>
+					</td>
+					<td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="100" valign="top">Name</td>
+								<td>{RemitterName}</td>
+							</tr>
+							<tr>
+								<td valign="top">Telephone</td>
+								<td>{RemitterTelephone}</td>
+							</tr>
+							<tr>
+								<td valign="top">Mobile</td>
+								<td>{RemitterMobile}</td>
+							</tr>
+							<tr>
+								<td valign="top">Address</td>
+								<td>{RemitterAddress}</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="15"></td>
+	</tr>
+	<tr>
+		<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="50%"><strong>Payment Details</strong></td>
+					<td>&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td bgcolor="#eeeeee"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="50%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="240" valign="top" nowrap>Amount Received [<strong>{ForeignCurrencyCode}</strong>]
+								</td>
+								<td><strong>{ForeignCurrencyAmount}</strong></td>
+							</tr>
+						</table>
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>{ForeignCurrencyCode} {AmountInWords}</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td><strong>Cheque Details </strong>
+								</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td><table width="100%" border="1" cellpadding="0" cellspacing="0" bordercolor="#000000">
+										<tr>
+											<td width="100">Cheque No
+											</td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<td>Date</td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<td>Drawn On
+											</td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<td>Amount</td>
+											<td>&nbsp;</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="center"><table width="350" border="1" cellpadding="0" cellspacing="0" bordercolor="#000000" style="PADDING-RIGHT:0px; PADDING-LEFT:0px; PADDING-BOTTOM:0px; PADDING-TOP:0px">
+										<tr>
+											<td width="80">&nbsp;</td>
+											<td width="40" align="center">x</td>
+											<td width="80">&nbsp;</td>
+											<td width="15" align="center">=</td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<td align="center">1000</td>
+											<td align="center">x</td>
+											<td>&nbsp;</td>
+											<td align="center">=</td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<td align="center">500</td>
+											<td align="center">x</td>
+											<td>&nbsp;</td>
+											<td align="center">=</td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<td align="center">200</td>
+											<td align="center">x</td>
+											<td>&nbsp;</td>
+											<td align="center">=</td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<td align="center">100</td>
+											<td align="center">x</td>
+											<td>&nbsp;</td>
+											<td align="center">=</td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<td align="center">50</td>
+											<td align="center">x</td>
+											<td>&nbsp;</td>
+											<td align="center">=</td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<td align="center">20</td>
+											<td align="center">x</td>
+											<td>&nbsp;</td>
+											<td align="center">=</td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<td align="center">10</td>
+											<td align="center">x</td>
+											<td>&nbsp;</td>
+											<td align="center">=</td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<td align="center">5</td>
+											<td align="center">x</td>
+											<td>&nbsp;</td>
+											<td align="center">=</td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<td align="center"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+													<tr>
+														<td width="40%">Coins</td>
+														<td>&nbsp;</td>
+													</tr>
+												</table>
+											</td>
+											<td align="center">x</td>
+											<td>&nbsp;</td>
+											<td align="center">=</td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<td align="center">&nbsp;</td>
+											<td align="center">&nbsp;</td>
+											<td align="right"><strong>Total</strong></td>
+											<td align="center"><strong>=</strong></td>
+											<td>&nbsp;</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="50">&nbsp;</td>
+	</tr>
+	<tr>
+		<td><table width="100%" border="0" cellspacing="0" cellpadding="0" style="BORDER-RIGHT:black 1px solid; BORDER-TOP:black 1px solid; BORDER-LEFT:black 1px solid; BORDER-BOTTOM:black 1px solid">
+				<tr>
+					<td width="33%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td align="center">Cashier Signature
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="center">&nbsp;</td>
+							</tr>
+							<tr>
+								<td align="center">Authorized By</td>
+							</tr>
+						</table>
+					</td>
+					<td width="33%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td align="center">Beneficiary Signature</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>

@@ -1,0 +1,18 @@
+stm_bm(["menu3986",400,"","Images/blank.gif",0,"","",1,0,0,0,500,1,1,1]);
+stm_bp("p0",[0,4,0,0,0,0,0,0,100,"",-2,"",-2,50,0,0,"#fffff7","#fffff7","",3,0,0,"#000000"]);
+stm_ai("p0i0",[2,"","Images/btn_MyProfile_nrml.jpg","images/btn_MyProfile_ovr.jpg",90,29,0,"PortalDefault.aspx?Main_Links_ID=6","_self","PortalDefault.aspx?Main_Links_ID=6","","","",0,0,0,"","",0,0,0,1,1,"#fffff7",0,"#b5bed6",1,"","",3,3,0,0,"#fffff7","#000000","#000000","#000000","8pt Verdana","8pt Verdana",0,0]);
+stm_bpx("p1","p0",[1,4,0,0,0,0,2,0,100,"progid:DXImageTransform.Microsoft.Fade(overlap=.5,enabled=0,Duration=0.60)",-2,"progid:DXImageTransform.Microsoft.Fade(overlap=.5,enabled=0,Duration=0.60)",-2,50,0,0,"#fffff7","transparent"]);
+stm_aix("p1i0","p0i0",[0,"Post My Offer         ","","",-1,-1,0,"PortalDefault.aspx?Main_Links_ID=6&sub_Links_ID=1","_self","Post My Offer","","","",2,19,0,"","",0,0,0,0,1,"#2cb7f8",0,"#6fcffc",0,"","",3,3,0,0,"#fffff7","#000000","#ffffff","#033c8c","bold 7pt Verdana","bold 7pt Verdana"]);
+stm_ai("p1i1",[6,1,"#41a3fe","",0,0,0]);
+stm_aix("p1i2","p1i0",[0,"Edit My Post   ","","",-1,-1,0,"PortalDefault.aspx?Main_Links_ID=6&sub_Links_ID=2","_self","Edit My Post"]);
+stm_aix("p1i3","p1i1",[]);
+stm_aix("p1i4","p1i0",[0,"Edit My Contact   ","","",-1,-1,0,"PortalDefault.aspx?Main_Links_ID=6&sub_Links_ID=4","_self","Edit My Contact"]);
+stm_aix("p1i5","p1i1",[]);
+stm_aix("p1i6","p1i0",[0,"Edit My Profile   ","","",-1,-1,0,"PortalDefault.aspx?Main_Links_ID=6&sub_Links_ID=5","_self","Edit My Profile"]);
+stm_aix("p1i7","p1i1",[]);
+stm_aix("p1i8","p1i0",[0,"Change Password   ","","",-1,-1,0,"PortalDefault.aspx?Main_Links_ID=6&sub_Links_ID=6","_self","Change Password"]);
+stm_aix("p1i9","p1i1",[]);
+stm_aix("p1i10","p1i0",[0,"Logout   ","","",-1,-1,0,"PortalDefault.aspx?Main_Links_ID=6&sub_Links_ID=10","_self","Logout"]);
+stm_ep();
+stm_ep();
+stm_em();

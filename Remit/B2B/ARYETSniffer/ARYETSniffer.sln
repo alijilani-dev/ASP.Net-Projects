@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARYETSniffer", "ARYETSniffer.csproj", "{2A4AF6A9-B7C3-440C-B077-5DF502D4B919}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2A4AF6A9-B7C3-440C-B077-5DF502D4B919}.Debug.ActiveCfg = Debug|.NET
+		{2A4AF6A9-B7C3-440C-B077-5DF502D4B919}.Debug.Build.0 = Debug|.NET
+		{2A4AF6A9-B7C3-440C-B077-5DF502D4B919}.Release.ActiveCfg = Release|.NET
+		{2A4AF6A9-B7C3-440C-B077-5DF502D4B919}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

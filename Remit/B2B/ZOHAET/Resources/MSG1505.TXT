@@ -1,0 +1,17 @@
+Structure 2 files you receive (Pay invoice, Compliance )
+
+Files is: ConUK0055131150.txt
+
+
+Name Oficess	Caracter, 5	UK005
+Invoice Number	Numeric	1,2,3,4,5,6,7,100….100000
+Date Pay	Date	05/12/2005
+Id Pay	Caracter 30	170654742-7
+		
+
+Files is: ComUK0055131150.txt
+
+Name Oficess	Caracter, 5	UK005
+Invoice Number	Numeric	1,2,3,4,5,6,7,100….100000
+Date Compliance Date	05/12/2005
+Compliance 	Caracter 200	Phone is number error

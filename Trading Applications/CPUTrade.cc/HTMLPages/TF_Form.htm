@@ -1,0 +1,241 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:asp>
+	<head>
+		<title></title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	</head>
+	<body>
+		<P>
+			<TABLE class="MainTable" id="table19" style="BORDER-RIGHT: #6288c7 1px solid; BORDER-TOP: #6288c7 1px solid; BORDER-LEFT: #6288c7 1px solid; BORDER-BOTTOM: #6288c7 1px solid"
+				width="100%" bgColor="#eef3ff">
+				<TR height="40">
+					<TD>
+						<TABLE id="table20" cellSpacing="1" width="100%" border="0">
+							<TR>
+								<TD bgColor="#4a70af">&nbsp;<B><FONT face="Verdana" color="#eef3ff" size="2">Submit Offer</FONT></B></TD>
+							</TR>
+							<TR>
+								<TD style="HEIGHT: 9px"><FONT face="Verdana" size="1">&nbsp;</FONT></TD>
+							</TR>
+							<TR>
+								<TD><B><FONT face="Verdana" color="#515c66" size="1">&nbsp; </FONT><FONT face="Verdana" color="#4a70af" size="2">
+											<SPAN style="VERTICAL-ALIGN: middle">I want To</SPAN></FONT></B>&nbsp;
+									<asp:radiobutton id="rdoBuy" Text="Buy" Checked="True" GroupName="GrpRadio" EnableViewState="False"
+										runat="server"></asp:radiobutton>&nbsp;&nbsp;&nbsp;&nbsp;
+									<asp:radiobutton id="rdoSell" Text="Sell" GroupName="GrpRadio" EnableViewState="False" runat="server"></asp:radiobutton>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<asp:checkbox id="chkPostComment" Text="Post Comment" EnableViewState="False" runat="server" AutoPostBack="True"></asp:checkbox></TD>
+							</TR>
+							<TR>
+								<TD><IMG height="3" src="../images/spacer_3px.gif" width="3" border="0"></TD>
+							</TR>
+							<TR>
+								<TD>
+									<DIV align="center">
+										<TABLE class="MainTable" id="table28" style="BORDER-RIGHT: #4a70af 1px solid; BORDER-TOP: #4a70af 1px solid; BORDER-LEFT: #4a70af 1px solid; BORDER-BOTTOM: #4a70af 1px solid"
+											cellSpacing="0" cellPadding="0" width="98%" bgColor="white">
+											<TR vAlign="top" height="27">
+												<TD style="BACKGROUND-IMAGE: url(../images/postform_bar_bg.gif); VERTICAL-ALIGN: middle; BORDER-BOTTOM: #6288c7 1px solid; BACKGROUND-REPEAT: repeat-x">
+													<TABLE id="table29" cellSpacing="0" cellPadding="0" width="232" border="0">
+														<TR>
+															<TD width="33">&nbsp;<IMG height="26" src="../images/postform_a.gif" width="26" align="center" border="0">
+															</TD>
+															<TD class="titleTd" vAlign="middle">
+																<P align="left"><B><FONT face="Verdana" color="#fea300" size="1">&nbsp;Choose Phone 
+																			Model&nbsp; </FONT></B>
+																</P>
+															</TD>
+														</TR>
+													</TABLE>
+												</TD>
+											</TR>
+											<TR>
+												<TD style="FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #4e80b0; FONT-FAMILY: verdana"
+													height="20">&nbsp;&nbsp;&nbsp;Choose your Brand &amp; Model:</TD>
+											</TR>
+											<TR>
+												<TD style="FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #4e80b0; FONT-FAMILY: verdana"
+													height="20">
+													<TABLE id="table31">
+														<TR>
+															<TD class="titleTd" vAlign="middle">&nbsp;&nbsp;&nbsp;<B><FONT size="1">Brand:</FONT></B>&nbsp;
+																<asp:dropdownlist id="ddlBrand" runat="server" AutoPostBack="True" CssClass="box" Width="153px"></asp:dropdownlist>
+															</TD>
+															<TD>&nbsp;</TD>
+															<TD class="titleTd">&nbsp;&nbsp;&nbsp;<B><FONT size="1">Model:</FONT></B>&nbsp;
+																<asp:dropdownlist id="ddlModel" runat="server" CssClass="box" Width="152px"></asp:dropdownlist>
+															</TD>
+															<TD>
+																<DIV id="ModelDiv0">&nbsp;</DIV>
+															</TD>
+														</TR>
+													</TABLE>
+												</TD>
+											</TR>
+											<TR>
+												<TD style="FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #4e80b0; FONT-FAMILY: verdana"
+													height="20">&nbsp;</TD>
+											</TR>
+											<TR>
+												<TD style="FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #4e80b0; FONT-FAMILY: verdana"
+													height="20">&nbsp;&nbsp;&nbsp;If you know the model number (e.g. <FONT color="#0000ff">
+														6230</FONT> or <FONT color="#0000ff">E800</FONT>) enter it below:</TD>
+											</TR>
+											<TR height="40">
+												<TD class="titleTd">&nbsp;&nbsp;&nbsp;<B><FONT face="Verdana" size="1">Model Number:</FONT></B>&nbsp;
+													<asp:textbox id="txtModelNo0" EnableViewState="False" runat="server" CssClass="box" MaxLength="20"></asp:textbox>&nbsp;</TD>
+											</TR>
+											<TR id="Search_TR" style="DISPLAY: none">
+												<TD align="center">&nbsp;</TD>
+											</TR>
+										</TABLE>
+									</DIV>
+								</TD>
+							</TR>
+							<TR>
+								<TD><IMG height="3" src="../images/spacer_3px.gif" width="3" border="0"></TD>
+							</TR>
+							<TR>
+								<TD>
+									<DIV align="center">
+										<TABLE class="MainTable" id="table34" style="BORDER-RIGHT: #4a70af 1px solid; BORDER-TOP: #4a70af 1px solid; BORDER-LEFT: #4a70af 1px solid; BORDER-BOTTOM: #4a70af 1px solid"
+											cellSpacing="0" cellPadding="0" width="98%" bgColor="white">
+											<TR vAlign="top" height="27">
+												<TD style="BACKGROUND-IMAGE: url(../images/postform_bar_bg.gif); VERTICAL-ALIGN: middle; BORDER-BOTTOM: #6288c7 1px solid; BACKGROUND-REPEAT: repeat-x"
+													colSpan="5">
+													<TABLE id="table35" cellSpacing="0" cellPadding="0" width="114" border="0">
+														<TR>
+															<TD>&nbsp;<IMG height="26" src="../images/postform_b.gif" width="26" align="middle" border="0">&nbsp;
+															</TD>
+															<TD class="titleTd" vAlign="middle"><B><FONT face="Verdana" color="#fea300" size="1">More 
+																		Details</FONT></B></TD>
+														</TR>
+													</TABLE>
+												</TD>
+											</TR>
+											<TR style="HEIGHT: 30px; BACKGROUND-COLOR: #f3f7fc">
+												<TD class="titleTd" width="16%"><B><FONT face="Verdana" color="#515c66" size="1">&nbsp;&nbsp;Quantity:&nbsp;
+														</FONT></B>
+												</TD>
+												<TD width="32%">
+													<asp:textbox id="txtQuantity" runat="server" CssClass="box" MaxLength="15"></asp:textbox>
+													<asp:rangevalidator id="RVQty" runat="server" CssClass="error" ErrorMessage="Invalid Quantity" ControlToValidate="txtQuantity"
+														Type="Integer" MaximumValue="9999999" MinimumValue="1"></asp:rangevalidator></TD>
+												<TD width="2%">&nbsp;</TD>
+												<TD class="titleTd" width="12%"><B><FONT face="Verdana" color="#515c66" size="1">Price:&nbsp;
+														</FONT></B>
+												</TD>
+												<TD width="36%">
+													<asp:dropdownlist id="ddlCurrency0" runat="server" CssClass="box"></asp:dropdownlist>&nbsp;</TD>
+											</TR>
+											<TR id="OnlyPhones" style="DISPLAY: block; HEIGHT: 30px; BACKGROUND-COLOR: #e5eff9">
+												<TD class="titleTd" style="BACKGROUND-COLOR: #eef3ff" width="16%"><B><FONT face="Verdana" color="#515c66" size="1">&nbsp; 
+															Status:</FONT></B></TD>
+												<TD style="BACKGROUND-COLOR: #eef3ff" width="32%"></TD>
+												<TD style="BACKGROUND-COLOR: #eef3ff" width="2%">&nbsp;</TD>
+												<TD class="titleTd" style="BACKGROUND-COLOR: #eef3ff" width="12%"><B><FONT face="Verdana" color="#515c66" size="1">Specification:</FONT></B></TD>
+												<TD style="BACKGROUND-COLOR: #eef3ff" width="36%">
+													<asp:dropdownlist id="ddlspecs" runat="server" CssClass="box"></asp:dropdownlist></TD>
+											</TR>
+											<TR id="OnlyPhones" style="DISPLAY: block; HEIGHT: 30px; BACKGROUND-COLOR: #e5eff9">
+												<TD class="titleTd" style="BACKGROUND-COLOR: #eef3ff" width="16%"><B><FONT face="Verdana" color="#515c66" size="1">&nbsp;&nbsp;Warranty:</FONT></B></TD>
+												<TD style="BACKGROUND-COLOR: #eef3ff" width="32%">
+													<asp:dropdownlist id="ddlWarranty" runat="server" CssClass="box"></asp:dropdownlist></TD>
+												<TD style="BACKGROUND-COLOR: #eef3ff" width="2%">&nbsp;</TD>
+												<TD class="titleTd" style="BACKGROUND-COLOR: #eef3ff" width="12%"><B><FONT face="Verdana" color="#515c66" size="1">Packaging:</FONT></B></TD>
+												<TD style="BACKGROUND-COLOR: #eef3ff" width="36%"></TD>
+											</TR>
+										</TABLE>
+									</DIV>
+								</TD>
+							</TR>
+							<TR>
+								<TD><IMG height="3" src="../images/spacer_3px.gif" width="3" border="0"></TD>
+							</TR>
+							<TR>
+								<TD>
+									<DIV align="center">
+										<TABLE class="MainTable" id="table38" style="BORDER-RIGHT: #4a70af 1px solid; BORDER-TOP: #4a70af 1px solid; BORDER-LEFT: #4a70af 1px solid; BORDER-BOTTOM: #4a70af 1px solid"
+											cellSpacing="0" cellPadding="0" width="98%" bgColor="white">
+											<TR vAlign="top" height="27">
+												<TD style="BACKGROUND-IMAGE: url(../images/postform_bar_bg.gif); VERTICAL-ALIGN: middle; BORDER-BOTTOM: #6288c7 1px solid; BACKGROUND-REPEAT: repeat-x"
+													colSpan="5">
+													<TABLE id="table39" cellSpacing="0" cellPadding="0" width="140" border="0">
+														<TR>
+															<TD>&nbsp;<IMG height="26" src="../images/postform_c.gif" width="26" align="middle" border="0">&nbsp;
+															</TD>
+															<TD class="titleTd" vAlign="middle"><B><FONT face="Verdana" color="#fea300" size="1">Shipping 
+																		Details</FONT></B></TD>
+														</TR>
+													</TABLE>
+												</TD>
+											</TR>
+											<TR style="HEIGHT: 30px; BACKGROUND-COLOR: #f3f7fc">
+												<TD class="titleTd" width="16%"><B><FONT face="Verdana" color="#515c66" size="1">&nbsp;&nbsp;Shipping 
+															Terms:&nbsp; </FONT></B>
+												</TD>
+												<TD width="33%"></TD>
+												<TD width="2%">&nbsp;</TD>
+												<TD class="titleTd" width="15%"><B><FONT face="Verdana" color="#515c66" size="1">Country:&nbsp;
+														</FONT></B>
+												</TD>
+												<TD width="34%">
+													<asp:dropdownlist id="ddlCountry0" runat="server" CssClass="box"></asp:dropdownlist>&nbsp;</TD>
+											</TR>
+											<TR style="HEIGHT: 30px; BACKGROUND-COLOR: #f3f7fc">
+												<TD class="titleTd" width="16%"><B><FONT face="Verdana" color="#515c66" size="1">&nbsp;&nbsp;Stock 
+															Location:</FONT></B></TD>
+												<TD width="33%">
+													<asp:dropdownlist id="DropDownList2" runat="server" CssClass="box"></asp:dropdownlist></TD>
+												<TD width="2%">&nbsp;</TD>
+												<TD class="titleTd" width="15%"><B><FONT face="Verdana" color="#515c66" size="1">If Other:</FONT></B></TD>
+												<TD width="34%">
+													<asp:textbox id="txtLocation0" runat="server" CssClass="box" MaxLength="100"></asp:textbox></TD>
+											</TR>
+										</TABLE>
+									</DIV>
+								</TD>
+							</TR>
+							<TR>
+								<TD><IMG height="3" src="../images/spacer_3px.gif" width="3" border="0"></TD>
+							</TR>
+							<TR>
+								<TD>
+									<DIV align="center">
+										<TABLE class="MainTable" id="table42" style="BORDER-RIGHT: #4a70af 1px solid; BORDER-TOP: #4a70af 1px solid; BORDER-LEFT: #4a70af 1px solid; BORDER-BOTTOM: #4a70af 1px solid"
+											cellSpacing="0" cellPadding="0" width="98%" bgColor="white">
+											<TR vAlign="top" height="27">
+												<TD style="BACKGROUND-IMAGE: url(../images/postform_bar_bg.gif); VERTICAL-ALIGN: middle; BORDER-BOTTOM: #6288c7 1px solid; BACKGROUND-REPEAT: repeat-x"
+													colSpan="2">
+													<TABLE id="table43" cellSpacing="0" cellPadding="0" width="172" border="0">
+														<TR>
+															<TD>&nbsp;<IMG height="26" src="../images/postform_d.gif" width="26" align="middle" border="0">&nbsp;
+															</TD>
+															<TD class="titleTd" vAlign="middle"><B><FONT face="Verdana" color="#fea300" size="1">Add 
+																		Your Comments</FONT></B></TD>
+														</TR>
+													</TABLE>
+												</TD>
+											</TR>
+											<TR style="HEIGHT: 30px; BACKGROUND-COLOR: #f3f7fc">
+												<TD width="16%"><B><FONT face="Verdana" color="#515c66" size="1">&nbsp;&nbsp;Comments:</FONT></B></TD>
+												<TD width="84%"><FONT size="1">&nbsp;</FONT><BR>
+													<asp:textbox id="txtComment0" runat="server" CssClass="box" Width="50%" MaxLength="1000" Height="70px"
+														TextMode="MultiLine"></asp:textbox>&nbsp;<BR>
+													<FONT size="1">&nbsp;</FONT></TD>
+											</TR>
+										</TABLE>
+									</DIV>
+								</TD>
+							</TR>
+							<TR>
+								<TD>&nbsp;
+									<asp:checkbox id="chkGrouping" Text="I want to POST more ITEMS" runat="server" CssClass="normaltext"></asp:checkbox></TD>
+							</TR>
+						</TABLE>
+					</TD>
+				</TR>
+			</TABLE>
+		</P>
+	</body>
+</html>

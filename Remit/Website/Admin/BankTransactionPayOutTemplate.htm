@@ -1,0 +1,231 @@
+<style type="text/css"> td { font-family:tahoma; font-size:12px; padding:1px; }
+	</style>
+<table width="100%" border="0" cellpadding="0" height="542">
+	<tr>
+		<td align="center" height="52"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="300" align="center"><img src="/images/layoutImages/logo.jpg"></td>
+					<td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="60" align="center">&nbsp;</td>
+								<td>{PayOutAgentName}</td>
+							</tr>
+							<tr>
+								<td align="center">&nbsp;</td>
+								<td>{PayOutAgentAddress}</td>
+							</tr>
+							<tr>
+								<td align="center">&nbsp;</td>
+								<td>Telephone: {PayOutAgentTelephone}</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="77" align="center"><font size="4">Speed Remit Receipt ({PaymentMode}) </font>
+		</td>
+	</tr>
+	<tr>
+		<td height="16"></td>
+	</tr>
+	<tr>
+		<td height="23"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="80" align="right"><strong style="FONT-SIZE:16px">SRTR No: </strong>
+					</td>
+					<td width="15">&nbsp;</td>
+					<td><strong style="FONT-SIZE:16px">{TRNO} </strong>
+					</td>
+					<td width="150"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="40%" align="right"><strong>Sent&nbsp;on : </strong>
+								</td>
+								<td>{Date}</td>
+							</tr>
+							<tr>
+								<td width="40%" align="right"><strong>Today : </strong>
+								</td>
+								<td>{Today}</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="18"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="180"><strong>Purpose of Transfer : </strong>
+					</td>
+					<td><strong>{PurposeOfTransferName}</strong></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="14"></td>
+	</tr>
+	<tr>
+		<td height="18"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="50%"><strong>Beneficiary Details </strong>
+					</td>
+					<td><strong>Remitter Details </strong>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td bgcolor="#eeeeee" height="82"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="50%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="100" valign="top">Name</td>
+								<td>{BeneficeryName}</td>
+							</tr>
+							<tr>
+								<td valign="top">Telephone</td>
+								<td>{BeneficeryTelephone}</td>
+							</tr>
+							<tr>
+								<td valign="top">Mobile</td>
+								<td>{BeneficeryMobile}</td>
+							</tr>
+							<tr>
+								<td valign="top">Address</td>
+								<td>{BeneficeryAddress}<br>
+									{BeneficeryZipCode}</td>
+							</tr>
+						</table>
+					</td>
+					<td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="140" valign="top">Name</td>
+								<td>{RemitterName}</td>
+							</tr>
+							<tr>
+								<td valign="top">Telephone</td>
+								<td>{RemitterTelephone}</td>
+							</tr>
+							<tr>
+								<td valign="top">Mobile</td>
+								<td>{RemitterMobile}</td>
+							</tr>
+							<tr>
+								<td valign="top">Address</td>
+								<td>{RemitterAddress}</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="18"></td>
+	</tr>
+	<tr>
+		<td height="18"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="50%"><strong>Payment Details</strong></td>
+					<td><strong>Bank Details</strong></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td bgcolor="#eeeeee" height="94"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="50%" valign="top"><table width="100%" height="40" border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td width="220" valign="top">Amount Received [<strong>{ForeignCurrencyCode}</strong>]
+								</td>
+								<td><strong>{ForeignCurrencyAmount}</strong></td>
+							</tr>
+						</table>
+						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td height="50">{AmountInWords}</td>
+							</tr>
+						</table>
+					</td>
+					<td align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td width="140" valign="top">Bank Account No
+											</td>
+											<td>{BeneficeryBankAccountNumber}</td>
+										</tr>
+										<tr>
+											<td valign="top">Bank Name
+											</td>
+											<td>{BeneficeryBankName}</td>
+										</tr>
+										<tr>
+											<td valign="top">Bank Branch Name
+											</td>
+											<td>{BeneficeryBankBranchName}</td>
+										</tr>
+										<tr>
+											<td valign="top">Bank Address
+											</td>
+											<td>{BeneficeryBankAddress}</td>
+										</tr>
+										<tr>
+											<td valign="top">Bank Zip Code</td>
+											<td>{BeneficeryBankZip}</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="48">&nbsp;</td>
+	</tr>
+	<tr>
+		<td height="38"><table width="100%" border="0" cellspacing="0" cellpadding="0" style="BORDER-RIGHT:black 1px solid; BORDER-TOP:black 1px solid; BORDER-LEFT:black 1px solid; BORDER-BOTTOM:black 1px solid">
+				<tr>
+					<td width="33%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td align="center">Cashier Signature
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td align="center">&nbsp;</td>
+							</tr>
+							<tr>
+								<td align="center">Authorized By</td>
+							</tr>
+						</table>
+					</td>
+					<td width="33%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td align="center">Beneficiary Signature</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>

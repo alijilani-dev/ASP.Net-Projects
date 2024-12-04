@@ -1,0 +1,109 @@
+<%@ Master Language="VB" CodeFile="Jilanimation.master.vb" Inherits="MasterPage" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Jilanimation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <link rel="stylesheet" href="styles/jil_layout.css" type="text/css" />
+    <script type="text/javascript" src="Scripts/jquery.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.innerfade.js"></script>
+</head>
+<body id="top">
+    <form id="form1" runat="server">
+<div class="wrapper col1">
+  <div id="header">
+    <div id="logo">
+      <h1><a href="#">Jilanimation</a></h1>
+      <p>Project Manager & Functional Consultant..</p>
+    </div>
+    <div id="search">
+        <fieldset>
+        <legend>Site Search</legend>
+        <input type="text" value="Site search comming soon&hellip;"  onfocus="this.value=(this.value=='Site search comming soon&hellip;')? '' : this.value ;" />
+        <input type="submit" name="go" id="go" value="GO" />
+        </fieldset>
+      </div>
+    <div id="topnav">
+      <ul>
+        <li id="topnav5" class="last"><a href="/Jilanimation/Information/about.aspx">About Us</a>
+          <ul>
+            <li><a href="/Jilanimation/Information/sitemap.aspx">Sitemap</a></li>
+            <li><a href="/Jilanimation/Information/contact.aspx">Contact us</a></li>
+          </ul>
+        </li>
+        <li id="topnav4"><a href="/Jilanimation/professional/distinctions.aspx">Distinctions</a></li>
+        <li id="topnav3"><a href="/Jilanimation/professional/professional.aspx">Professional</a>
+          <ul>
+            <li><a href="/Jilanimation/professional/curricular_activities.aspx">Academic</a></li>
+            <li><a href="/Jilanimation/professional/co_curricular_activities.aspx">Co-curricular</a></li>
+            <li><a href="/Jilanimation/professional/xtra_curricular_activities.aspx">Extra-curricular</a></li>
+          </ul>
+        </li>
+        <li id="topnav2"><a href="/Jilanimation/personal/personal.aspx">Personal</a></li>
+        <li id="topnav1"><a href="/Jilanimation/index.aspx">Home</a></li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+<!-- ####################################################################################################### -->
+<div class="wrapper col4">
+  <div id="footer">
+    <div id="newsletter">
+      <h2>Stay In The Know !</h2>
+      <p>Please enter your email to join our mailing list</p>
+        <fieldset>
+        <legend>News Letter</legend>
+        <input type="text" value="Enter Email Here&hellip;"  onfocus="this.value=(this.value=='Enter Email Here&hellip;')? '' : this.value ;" />
+        <input type="submit" name="news_go" id="news_go" value="GO" />
+        </fieldset>
+      <p>To unsubscribe please <a href="#">click here &raquo;</a></p>
+    </div>
+    <div class="footbox">
+      <h2 class="rssimg">News Feeds</h2>
+      <ul style="list-style-image: url(images/rss.jpg);">
+        <li><a target="_blank" rel="nofollow" href="/Feed/Default.aspx?FID=3">Project Management</a></li>
+        <li><a target="_blank" rel="nofollow" href="/Feed/Default.aspx?FID=3">Service Management</a></li>
+        <li><a target="_blank" rel="nofollow" href="/Feed/Default.aspx?FID=3">Document Management</a></li>
+        <li><a target="_blank" rel="nofollow" href="/Feed/Default.aspx?FID=3">Content Management</a></li>
+        <li class="last"><a target="_blank" rel="nofollow" href="/Feed/Default.aspx?FID=3">Knowledge Management</a></li>
+      </ul>
+    </div>
+    <div class="footbox">
+      <h2>Professional Feeds</h2>
+      <ul style="list-style-image: url(images/rss.jpg);">
+        <li><a target="_blank" rel="nofollow" href="/Feed/Default.aspx?FID=2">Opentext</a></li>
+        <li><a target="_blank" rel="nofollow" href="/Feed/Default.aspx?FID=2">KOFAX</a></li>
+        <li><a target="_blank" rel="nofollow" href="/Feed/Default.aspx?FID=2">Microsoft Sharepoint</a></li>
+        <li><a target="_blank" rel="nofollow" href="/Feed/Default.aspx?FID=2">Microsoft Dynamics</a></li>
+        <li class="last"><a target="_blank" rel="nofollow" href="/Feed/Default.aspx?FID=2">Microsoft Project</a></li>
+      </ul>
+    </div>
+    <div class="footbox">
+      <h2>Islamic Feeds</h2>
+      <ul style="list-style-image: url(images/rss.jpg);">
+        <li><a target="_blank" rel="nofollow" href="/Feed/Default.aspx?FID=1">Code Project</a></li>
+        <li><a target="_blank" rel="nofollow" href="/Feed/Default.aspx?FID=1">ASP.Net</a></li>
+        <li><a target="_blank" rel="nofollow" href="/Feed/Default.aspx?FID=1">iNeta Gulf</a></li>
+        <li><a target="_blank" rel="nofollow" href="/Feed/Default.aspx?FID=1">Mobile Development</a></li>
+        <li class="last"><a target="_blank" rel="nofollow" href="/Feed/Default.aspx?FID=1">Xilinx</a></li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col5">
+  <div id="copyright">
+    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">
+        Jilanimation</a></p>
+    <p class="fl_right">Last Updated: 01st May 2014.</p>
+    <br class="clear" />
+  </div>
+</div>
+    </form>
+</body>
+</html>

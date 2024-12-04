@@ -1,0 +1,88 @@
+<%@ Master Language="VB" CodeFile="Professional.master.vb" Inherits="Professional_Professional" MasterPageFile="../Jilanimation.master" AutoEventWireup="false" %>
+
+<asp:Content ID="PlaceHolderProfessional" runat="server" ClientIDMode="AutoID" contentplaceholderid="ContentPlaceHolder2" EnableViewState="False" ViewStateMode="Disabled">
+    <div class="wrapper col2">
+   <div id="Dashboard">
+    <div class="subnav">
+    <h2>Contents</h2>
+    <ul>
+        <li><a href="curricular_activities.aspx">Curricular</a>
+            <ul>
+                <li><a href="curricular_activities.aspx">Curricular Background</a></li>
+                <li><a href="xtra_curricular_activities.aspx">Extra-Curricular Activities</a></li>
+                <li><a href="co_curricular_activities.aspx">Co-Curricular Activities</a></li>
+            </ul>
+        </li>
+        <li><a href="work_experience.aspx">Work Experience</a>
+        <ul>
+            <li><a href="job_history.aspx">Job History</a></li>
+            <li><a href="projects.aspx">Projects</a>
+            <ul>
+                <li><a href="competencies.aspx">Core Competancies</a></li>
+                <li><a href="projects.aspx">Project Details</a></li>
+            </ul>
+            </li>
+            <li><a href="distinctions.aspx">Distinctions</a></li>
+        </ul>
+        </li>
+        <li><a href="references.aspx">References</a>
+            <ul>
+                <li><a href="references.aspx">Professional</a></li>
+                <li><a href="references.aspx">Educational</a></li>
+            </ul>
+        </li>
+    </ul>
+    </div>
+    
+
+<!-- ####################################################################################################### -->
+        <asp:ContentPlaceHolder id="ContentPlaceHolderProfessional" runat="server"></asp:ContentPlaceHolder>
+<!-- ####################################################################################################### -->
+  </div>
+</div>
+
+<!-- ####################################################################################################### -->
+<div class="wrapper col3">
+  <div id="container">
+   <div id="latest">
+      <ul>
+        <li>
+          <h2>Software Development</h2>
+          <p class="imgholder"><img src="../Images/demo/softwaredevelopment.gif" alt="" /></p>
+          <p>Software Development Projects. <a href="#">More &raquo;</a></p>
+        </li>
+        <li>
+          <h2>Middle Tier Development</h2>
+            <p class="imgholder">
+                <img src="../Images/demo/personality_development.jpg" alt="" /></p>
+            <p>
+                Middle Tier Development Projects. <a href="#">More &raquo;</a></p>
+        </li>
+        <li class="last">
+          <h2>Web Portals &amp; Applications</h2>
+          <p class="imgholder"><img src="../Images/demo/softwaredevelopment.gif" alt="" /></p>
+          <p>Web Portals and Applications. <a href="#">More &raquo;</a></p>
+        </li>
+      </ul>
+      <br class="clear" />
+    </div>
+    <div id="content">
+      <h2>Professional Articles</h2>
+      <p>A brief description about the articles available on variety of related topics to 
+          mark the upcomming trends in computing.</p>
+      <p>Article 1 by ABC pusblished on xx/xx/20xx can be viewed <a target="_blank" rel="nofollow" href="http://creativecommons.org/licenses/by-sa/3.0/">here.</a></p>
+      <p>Article 2 by ABC pusblished on xx/xx/20xx can be viewed <a target="_blank" rel="nofollow" href="http://creativecommons.org/licenses/by-sa/3.0/">here.</a></p>
+      <p>&nbsp;</p>
+    </div>
+
+    <div id="column">
+      <div class="holder">
+        <h2 class="title"><img src="../Images/demo/airplane.jpg" alt="" />Documents</h2>
+        <p>Resume (Ver.:01-04-2011).<a target="_blank" rel="nofollow" href="/Jilanimation/Professional/CVAliAkbarJilani.pdf"> > Download &raquo;</a></p>
+        <p>Biodata.<a target="_blank" rel="nofollow" href="http://creativecommons.org/licenses/by-sa/3.0/"> > Download &raquo;</a></p>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+</asp:Content>

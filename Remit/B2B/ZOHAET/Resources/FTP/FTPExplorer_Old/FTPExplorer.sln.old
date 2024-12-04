@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTPExplorer", "FTPExplorer.csproj", "{896D9933-DF0D-11D5-A748-0004AC56D771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTPClient", "FTPClient\FTPClient.csproj", "{23550AB3-E23F-11D5-A74D-0004AC56D771}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{896D9933-DF0D-11D5-A748-0004AC56D771}.Debug.ActiveCfg = Debug|.NET
+		{896D9933-DF0D-11D5-A748-0004AC56D771}.Debug.Build.0 = Debug|.NET
+		{896D9933-DF0D-11D5-A748-0004AC56D771}.Release.ActiveCfg = Release|.NET
+		{896D9933-DF0D-11D5-A748-0004AC56D771}.Release.Build.0 = Release|.NET
+		{23550AB3-E23F-11D5-A74D-0004AC56D771}.Debug.ActiveCfg = Debug|.NET
+		{23550AB3-E23F-11D5-A74D-0004AC56D771}.Debug.Build.0 = Debug|.NET
+		{23550AB3-E23F-11D5-A74D-0004AC56D771}.Release.ActiveCfg = Release|.NET
+		{23550AB3-E23F-11D5-A74D-0004AC56D771}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

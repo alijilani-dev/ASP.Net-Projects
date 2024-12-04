@@ -1,0 +1,93 @@
+body {
+	font-family: Verdana, Arial, Arial;
+	font-size: 11px;
+}
+
+.siz {
+	font-family: Verdana, Arial, Arial;
+	font-size: 11px;
+}
+.Content {
+	font-family: Verdana, Arial, Arial;
+	font-size: 12px;
+}
+
+.Head {
+	font-family: Verdana, Arial, Arial;
+	font-size: 12px;
+	color: #990000;
+}
+A.link1 {
+	FONT-SIZE: 11px; COLOR: #064a79;
+    FONT-FAMILY: Verdana, Tahoma, Arial;
+TEXT-DECORATION: none
+}
+
+A.link1:hover {
+FONT-SIZE: 11px; COLOR: #f7342d; 
+FONT-FAMILY: Verdana, Tahoma, Arial;
+TEXT-DECORATION: none
+}
+
+A.link2 {
+FONT-SIZE: 11px; COLOR: #829658;
+FONT-FAMILY: Verdana, Tahoma, Arial;
+TEXT-DECORATION: none
+}
+
+A.link2:hover {
+	FONT-SIZE: 11px; COLOR: #f7342d; 
+    FONT-FAMILY: Verdana, Tahoma, Arial;
+TEXT-DECORATION: none
+}
+
+A.link3 {
+	FONT-SIZE: 11px; COLOR: #ff9900; 
+    FONT-FAMILY: Verdana, Tahoma, Arial; 
+TEXT-DECORATION: none
+}
+
+A.link3:hover {
+	FONT-SIZE: 11px; COLOR: #f7342d; 
+    FONT-FAMILY: Verdana, Tahoma, Arial;
+TEXT-DECORATION: none
+}
+A.link4 {
+	FONT-SIZE: 11px; COLOR: #ff9900; 
+    FONT-FAMILY: Verdana, Tahoma, Arial; 
+TEXT-DECORATION: none
+}
+
+A.link4:hover {
+	FONT-SIZE: 11px; COLOR: #f7342d; 
+    FONT-FAMILY: Verdana, Tahoma, Arial; 
+TEXT-DECORATION: none
+}
+
+A:active
+{
+    FONT-FAMILY: Verdana, Tahoma, Arial;
+	text-decoration: none;
+
+}
+
+A:link
+{
+    FONT-FAMILY: Verdana, Tahoma, Arial; 
+	text-decoration: none;
+
+}
+
+A:visited
+{
+    FONT-FAMILY: Verdana, Tahoma, Arial;
+	text-decoration: none;
+
+}
+
+A:hover
+{
+    FONT-FAMILY: Verdana, Tahoma, Arial;
+	text-decoration: underline;
+
+}

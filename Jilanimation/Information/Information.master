@@ -1,0 +1,65 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/Jilanimation.master" AutoEventWireup="false" CodeFile="Information.master.vb" Inherits="Information_MasterPage" %>
+
+<asp:Content ID="PlaceHolderAboutUs" runat="server" ClientIDMode="AutoID" contentplaceholderid="ContentPlaceHolder2" EnableViewState="False" ViewStateMode="Disabled">
+<div class="wrapper col2">
+   <div id="Dashboard">
+    <div class="subnav">
+    <h2>Information</h2>
+    <ul>
+        <!--<li><a href="about.aspx">About Us</a></li>-->
+        <li><a href="sitemap.aspx">Sitemap</a></li>
+        <li><a href="contact.aspx">Contact Us</a></li>
+    </ul>
+    </div>
+    
+
+<!-- ####################################################################################################### -->
+        <asp:ContentPlaceHolder ID="PlaceHolderInformation" runat="server"></asp:ContentPlaceHolder>
+<!-- ####################################################################################################### -->
+  </div>
+</div>
+
+<div class="wrapper col3">
+  <div id="container">
+   <div id="latest">
+      <ul>
+        <li>
+          <h2>Software Development</h2>
+          <p class="imgholder"><img src="../Images/demo/softwaredevelopment.gif" alt="" /></p>
+          <p>Software Development Projects. <a href="#">More &raquo;</a></p>
+        </li>
+        <li>
+          <h2>Middle Tier Development</h2>
+            <p class="imgholder">
+                <img src="../Images/demo/personality_development.jpg" alt="" /></p>
+            <p>
+                Middle Tier Development Projects. <a href="#">More &raquo;</a></p>
+        </li>
+        <li class="last">
+          <h2>Web Portals &amp; Applications</h2>
+          <p class="imgholder"><img src="../Images/demo/softwaredevelopment.gif" alt="" /></p>
+          <p>Web Portals and Applications. <a href="#">More &raquo;</a></p>
+        </li>
+      </ul>
+      <br class="clear" />
+    </div>
+    <div id="content">
+      <h2>Professional Articles</h2>
+      <p>A brief description about the articles available on variety of related topics to 
+          mark the upcomming trends in computing.</p>
+      <p>Article 1 by ABC pusblished on xx/xx/20xx can be viewed <a target="_blank" rel="nofollow" href="http://creativecommons.org/licenses/by-sa/3.0/">here.</a></p>
+      <p>Article 2 by ABC pusblished on xx/xx/20xx can be viewed <a target="_blank" rel="nofollow" href="http://creativecommons.org/licenses/by-sa/3.0/">here.</a></p>
+      <p>&nbsp;</p>
+    </div>
+
+    <div id="column">
+      <div class="holder">
+        <h2 class="title"><img src="../Images/demo/airplane.jpg" alt="" />Documents</h2>
+        <p>Resume (Ver.:01-04-2011).<a target="_blank" rel="nofollow" href="http://creativecommons.org/licenses/by-sa/3.0/"> > Download &raquo;</a></p>
+        <p>Biodata.<a target="_blank" rel="nofollow" href="http://creativecommons.org/licenses/by-sa/3.0/"> > Download &raquo;</a></p>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+</asp:Content>

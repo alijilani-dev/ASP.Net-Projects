@@ -1,0 +1,16 @@
+<div align='right'><font face=''Verdana, Arial, Helvetica, sans-serif'' color=''#cc0000'' size=''1''><a href=''javascript:GetPopup(''campid=24&paramid=36&typeid=3&fieldlength=200'');''><img src=''Images/edit_icon.gif'' border=''0''><font face=''Arial, Helvetica, sans-serif''>Edit imgHeader</font></a></font></div>
+
+
+
+
+
+'<div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" color="#cc0000" size="1"><a href="javascript:GetPopup(''campid=24&paramid=36&typeid=3&fieldlength=200'');"><img src="Images/edit_icon.gif" border="0"><font face="Arial, Helvetica, sans-serif">Edit imgHeader</font></a></font></div>'  As EditText,
+
+
+
+
+'<div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" color="#cc0000" size="1"><a href="javascript:GetPopup(''campid={*0*}&paramid={*1*}&typeid={*2*}&fieldlength=200'');"><img src="Images/edit_icon.gif" border="0"><font face="Arial, Helvetica, sans-serif">Edit Text</font></a></font></div>'
+
+
+
+<img src="../images/2.gif" border="0"><font face="Arial, Helvetica, sans-serif" color="#0000ff" size="1">Edit Text

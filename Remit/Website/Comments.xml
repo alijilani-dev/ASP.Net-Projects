@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+	<Task>
+		<RefNo>210505001</RefNo>
+		<Comments>To Place working hours of Zoha Exchange on the report generated 'CashTransactionReciptTemplate.htm'</Comments>
+		<Purpose>To Place working hours of Zoha Exchange on the report generated 'CashTransactionReciptTemplate.htm'</Purpose>
+		<AssignedBy>Mr. Ahmed</AssignedBy>
+		<StartDate>22nd May 2005</StartDate>
+		<EndDate>22nd May 2005</EndDate>
+		<Completed>1</Completed>
+	</Task>
+	<Task>
+		<RefNo>210505002</RefNo>
+		<Comments>To redirect the control to a separate Recipt in case of Zoha Exchange, New recipt name 'CashZohaTransactionReciptTemplate.htm'</Comments>
+		<Purpose>To redirect the control to a separate Recipt in case of Zoha Exchange, New recipt name 'CashZohaTransactionReciptTemplate.htm'</Purpose>
+		<AssignedBy>Mr. Ahmed</AssignedBy>
+		<StartDate>21st May 2005</StartDate>
+		<EndDate>21st May 2005</EndDate>
+		<Completed>1</Completed>
+	</Task>
+	<Task>
+		<RefNo>280505001</RefNo>
+		<Comments>To Issue EMC# to respective remitters.</Comments>
+		<Purpose>To Issue EMC# to respective remitters.</Purpose>
+		<AssignedBy>Mr. Ahmed</AssignedBy>
+		<StartDate>27th May 2005</StartDate>
+		<EndDate>30th May 2005</EndDate>
+		<Completed>1</Completed>
+	</Task>
+</NewDataSet>

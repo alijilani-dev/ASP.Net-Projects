@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridStyles", "GridStyles.csproj", "{82CB8E97-FC3C-464B-A3CA-9FF5531AC7FF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{82CB8E97-FC3C-464B-A3CA-9FF5531AC7FF}.Debug.ActiveCfg = Debug|.NET
+		{82CB8E97-FC3C-464B-A3CA-9FF5531AC7FF}.Debug.Build.0 = Debug|.NET
+		{82CB8E97-FC3C-464B-A3CA-9FF5531AC7FF}.Release.ActiveCfg = Release|.NET
+		{82CB8E97-FC3C-464B-A3CA-9FF5531AC7FF}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

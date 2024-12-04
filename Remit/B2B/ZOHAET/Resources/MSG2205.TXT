@@ -1,0 +1,56 @@
+DateInv = "" 
+InvBranch = ""
+InvRec = ""
+DateInv = month(Recordset1.Fields.Item("DATE_RECEIVER").Value) 
+IF LEN(DAY(Recordset1.Fields.Item("DATE_RECEIVER").Value)) = 1 THEN
+   DateInv = DateInv &  "0" & day(Recordset1.Fields.Item("DATE_RECEIVER").Value)
+ELSE
+   DateInv = DateInv & day(Recordset1.Fields.Item("DATE_RECEIVER").Value) 
+END IF
+DateInv = DateInv & YEAR(Recordset1.Fields.Item("DATE_RECEIVER").Value) 
+
+FOR N = 1 TO 6 - len((Recordset1.Fields.Item("ID_BRANCH").Value))
+    InvBranch = InvBranch + "0"
+NEXT
+InvBranch = InvBranch & (Recordset1.Fields.Item("ID_BRANCH").Value)
+
+FOR N = 1 TO 8 - len((Recordset1.Fields.Item("ID_RECEIVER").Value))
+    InvRec = InvRec + "0"
+NEXT
+InvRec = InvRec & (Recordset1.Fields.Item("ID_RECEIVER").Value)
+
+KeyZoha = MID(InvRec,3,1)
+KeyZoha = KeyZoha & MID(InvRec,1,1)
+KeyZoha = KeyZoha & MID(InvRec,2,1)
+KeyZoha = KeyZoha & MID(InvBranch,2,1)
+KeyZoha = KeyZoha & MID(InvBranch,3,1)
+KeyZoha = KeyZoha & MID(InvRec,5,1)
+KeyZoha = KeyZoha & MID(InvBranch,1,1)
+KeyZoha = KeyZoha & MID(InvRec,4,1)
+KeyZoha = KeyZoha & MID(InvBranch,5,1)
+KeyZoha = KeyZoha & MID(InvRec,8,1)
+KeyZoha = KeyZoha & MID(InvBranch,4,1)
+KeyZoha = KeyZoha & MID(InvRec,6,1)
+KeyZoha = KeyZoha & MID(InvBranch,6,1)
+KeyZoha = KeyZoha & MID(InvRec,7,1)
+
+
+
+Atentamente,
+
+Ing. Francisco Torres
+Gerente General ZOHA INC
+
+Zoha Inc. 
+13 EAST 30TH 
+NEW YORK, NY, 10016
+USA
+
+Toll Free: 1-877-964-2462. 
+Tel.: 212-213-4268
+Fax.: 212-447-6196 
+Cell: 718-581-6630
+
+Web Page: www.zohainc.com 
+E-mail.: info@zohainc.com 
+Slogan.: YOUR MONEY ARRIVES SAFE!!

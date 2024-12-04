@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridValidation", "DataGridValidation.csproj", "{04EAA819-D978-4978-80BB-B616BD11C669}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{04EAA819-D978-4978-80BB-B616BD11C669}.Debug.ActiveCfg = Debug|.NET
+		{04EAA819-D978-4978-80BB-B616BD11C669}.Debug.Build.0 = Debug|.NET
+		{04EAA819-D978-4978-80BB-B616BD11C669}.Release.ActiveCfg = Release|.NET
+		{04EAA819-D978-4978-80BB-B616BD11C669}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

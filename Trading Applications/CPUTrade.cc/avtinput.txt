@@ -1,0 +1,4 @@
+Advanced News Scroll|Advanced News Scroll is a highly configurable vertical text scroller and vertical news ticker.|http://japplets.tripod.com/advnewsscroll.html|_self
+Applet Features|This applet features smooth scrolling, highlighted URL links, optional border, configurable margins ,and background image.||_self
+Input Text File|The scroll content can be loaded from a separate text file or parameters.|http://japplets.tripod.com/advnewsscroll.html|_self
+Example 2|Example 2 shows how you can use separate text file to read scroll content.|../example2/default.html|_self

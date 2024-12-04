@@ -1,0 +1,49 @@
+<%@ Master Language="VB" CodeFile="ProjectBody.master.vb" Inherits="Professional_ProjectBody" MasterPageFile="~/Professional/NestedMasterPages/Project.master" AutoEventWireup="false" %>
+
+<asp:Content ID="PlaceHolderProject" runat="server" ClientIDMode="AutoID" contentplaceholderid="ContentPlaceHolderProject" EnableViewState="False" ViewStateMode="Disabled">
+
+<div class="wrapper col2">
+   <div id="Dashboard">
+<!-- ####################################################################################################### -->
+    <div class="subnav">
+    <h2>Contents</h2>
+    <ul>
+        <li><a href="curricular.aspx">Curricular</a>
+            <ul>
+                <li><a href="curricular.aspx">Curricular Background</a></li>
+                <li><a href="xtra-curricular.aspx">Extra-Curricular Activities</a></li>
+                <li><a href="co-curricular.aspx">Co-Curricular Activities</a></li>
+            </ul>
+        </li>
+        <li><a href="workexperience.aspx">Work Experience</a>
+        <ul>
+            <li><a href="jobhistory.aspx">Job History</a></li>
+            <li><a href="projects.aspx">Projects</a>
+            <ul>
+                <li><a href="projects.aspx">Core Competancies</a></li>
+                <li><a href="projects.aspx">Project Details</a></li>
+            </ul>
+            </li>
+            <li><a href="distinctions.aspx">Distinctions</a></li>
+        </ul>
+        </li>
+        <li><a href="references.aspx">References</a>
+            <ul>
+                <li><a href="references.aspx">Professional</a></li>
+                <li><a href="references.aspx">Educational</a></li>
+            </ul>
+        </li>
+    </ul>
+    </div>
+<!-- ####################################################################################################### -->
+        <asp:ContentPlaceHolder id="ContentPlaceHolderProjectBody" runat="server"></asp:ContentPlaceHolder>
+<!-- ####################################################################################################### -->
+
+    <br class="clear" />
+  </div>
+</div>
+</asp:Content>
+
+
+
+

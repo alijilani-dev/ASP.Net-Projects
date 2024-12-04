@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Network</name>
+    </assembly>
+    <members>
+        <member name="T:Network.TransferMode">
+            <summary>
+            Transfer mode for files
+            </summary>
+        </member>
+        <member name="F:Network.TransferMode.Ascii">
+            <summary>
+            ASCII transfer mode
+            </summary>
+        </member>
+        <member name="F:Network.TransferMode.Binary">
+            <summary>
+            Binary transfer mode 
+            </summary>
+        </member>
+        <member name="T:Network.FtpClient">
+            <summary>
+            FtpClient class performs the actions of a simple ftp client
+            </summary>
+        </member>
+        <member name="M:Network.FtpClient.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Initializes the ftp client
+            </summary>
+            <param name="sHost">Hostname of the remote machine</param>
+            <param name="sUser">User name of the remote machine account</param>
+            <param name="sPassword">Password of the remote machine account</param>
+        </member>
+        <member name="M:Network.FtpClient.#ctor(System.String)">
+            <summary>
+            Initializes the ftp client
+            </summary>
+            <param name="sHost">Hostname of the remote machine</param>
+        </member>
+        <member name="M:Network.FtpClient.#ctor(System.String,System.Int32)">
+            <summary>
+            Initializes the ftp client
+            </summary>
+            <param name="sHost">Hostname of the remote machine</param>
+            <param name="iPort">Port of the remote machine</param>
+        </member>
+        <member name="M:Network.FtpClient.Open">
+            <summary>
+            Opens the connection to the remote machine
+            </summary>
+        </member>
+        <member name="M:Network.FtpClient.SetCurrentDirectory(System.String)">
+            <summary>
+            Sets the current remote directory
+            </summary>
+            <param name="sDirectory">Directory name</param>
+        </member>
+        <member name="M:Network.FtpClient.ReceiveFile(System.String,System.String,Network.TransferMode)">
+            <summary>
+            Gets a file from the ftp server, if sRemoteFilename contains a mask only the
+            first file matching the mask is received.
+            </summary>
+            <param name="sLocalFilename">Full filename of the local file [Path+Name]</param>
+            <param name="sRemoteFilename">Remote file name</param>
+            <param name="mode">Transfer mode constant</param>
+        </member>
+        <member name="M:Network.FtpClient.SendFile(System.String,System.String,Network.TransferMode)">
+            <summary>
+            Puts a file to the ftp server, if sRemoteFilename contains a mask only the
+            first file matching the mask is received.
+            </summary>
+            <param name="sLocalFilename">Full filename of the local file [Path+Name]</param>
+            <param name="sRemoteFilename">Remote file name</param>
+            <param name="mode">Transfer mode constant</param>
+        </member>
+        <member name="M:Network.FtpClient.Close">
+            <summary>
+            Closes the connection to remote host
+            </summary>
+        </member>
+        <member name="P:Network.FtpClient.Username">
+            <summary>
+            Username of the remote machine account
+            </summary>
+        </member>
+        <member name="P:Network.FtpClient.Password">
+            <summary>
+            Password of the remote machine account
+            </summary>
+        </member>
+        <member name="P:Network.FtpClient.Host">
+            <summary>
+            Hostname of the remote machine
+            </summary>
+        </member>
+        <member name="P:Network.FtpClient.Port">
+            <summary>
+            FTP port of the remote machine. This property is set to 21 by default
+            </summary>
+        </member>
+        <member name="T:Network.FtpClientException">
+            <summary>
+            General exception class
+            </summary>
+        </member>
+        <member name="M:Network.FtpClientException.#ctor">
+            <summary>
+            An instance of FtpClientException
+            </summary>
+        </member>
+        <member name="M:Network.FtpClientException.#ctor(System.Int32,System.String)">
+            <summary>
+            An instance of FtpClientException
+            </summary>
+            <param name="code">Error code of this exception</param>
+            <param name="message">Explains what happend</param>
+        </member>
+        <member name="P:Network.FtpClientException.ErrorCode">
+            <summary>
+            Error code. This property is read-only.
+            </summary>
+        </member>
+    </members>
+</doc>

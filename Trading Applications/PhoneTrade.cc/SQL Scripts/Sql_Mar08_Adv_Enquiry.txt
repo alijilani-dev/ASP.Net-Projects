@@ -1,0 +1,151 @@
+CREATE TABLE [Adv_Enquiry] (
+	[AdvId] [int] IDENTITY (1, 1) NOT NULL ,
+	[Portal_ID] [int] NOT NULL ,
+	[PlanID] [char] (2) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[Duration] [varchar] (8) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[ContactName] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[CompanyName] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[Phone] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[Email] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[Comments] [varchar] (1000) COLLATE SQL_Latin1_General_CP1_CI_AS NULL ,
+	[TimeStamp] [datetime] NOT NULL CONSTRAINT [DF_Adv_Enquiry_TimeStamp] DEFAULT (getdate()),
+	CONSTRAINT [PK_Adv_Enquiry] PRIMARY KEY  CLUSTERED 
+	(
+		[AdvId]
+	)  ON [PRIMARY] 
+) ON [PRIMARY]
+GO
+
+
+
+
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+
+
+
+CREATE PROCEDURE [USP_SELECT_ADV_ENQUIRY]
+(
+	@AdvID int = NULL 
+)
+AS
+BEGIN
+
+	
+	DECLARE @Err int
+	IF @AdvID IS NULL BEGIN
+	
+	SELECT 
+AdvId,
+Portal_ID,
+PlanID,
+Duration,
+ContactName,
+CompanyName,
+Phone,
+Email,
+Comments,
+[TimeStamp]
+	
+	FROM 
+	[Adv_Enquiry] 
+	END
+
+	ELSE BEGIN
+
+	SELECT 
+AdvId,
+Portal_ID,
+PlanID,
+Duration,
+ContactName,
+CompanyName,
+Phone,
+Email,
+Comments,
+[TimeStamp]
+	
+	FROM 
+	[Adv_Enquiry] 
+	WHERE
+		[AdvId] = @AdvID
+
+
+END
+	
+	SET @Err = @@Error
+
+	RETURN @Err
+END
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+	
+
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+CREATE PROCEDURE [USP_INSERT_ADV_ENQUIRY]
+(
+	@AdvId int = NULL output,
+	@PlanID varchar(1) = NULL,
+	@Duration varchar(8) = NULL,
+	@Portal_id int = NULL ,
+	@ContactName varchar(100) = NULL,
+	@CompanyName varchar(100) = NULL,
+	@Phone varchar(100) = NULL,
+	@Email varchar(255) = NULL,
+	@Comments varchar(1000) = NULL
+)
+AS
+BEGIN
+
+	SET NOCOUNT ON
+	DECLARE @Err int
+
+	INSERT
+	INTO [Adv_Enquiry]
+	(
+		PlanID,
+		Duration,
+		Portal_id, 
+		ContactName ,
+		CompanyName,
+		Phone ,
+		Email ,
+		Comments,
+		[TimeStamp]	
+	)
+	VALUES
+	(
+		@PlanID,
+		@Duration,
+		@Portal_id ,
+		@ContactName ,
+		@CompanyName,
+		@Phone ,
+		@Email ,
+		@Comments,
+		getdate()
+	)
+
+	SET @Err = @@Error
+
+	SELECT @AdvId = SCOPE_IDENTITY()
+
+	RETURN @Err
+END
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+

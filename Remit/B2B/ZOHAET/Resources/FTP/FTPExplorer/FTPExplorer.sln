@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTPExplorer", "FTPExplorer.csproj", "{6F7D71D2-3BCF-11D5-A65A-0004AC56D771}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6F7D71D2-3BCF-11D5-A65A-0004AC56D771}.Debug.ActiveCfg = Debug|.NET
+		{6F7D71D2-3BCF-11D5-A65A-0004AC56D771}.Debug.Build.0 = Debug|.NET
+		{6F7D71D2-3BCF-11D5-A65A-0004AC56D771}.Release.ActiveCfg = Release|.NET
+		{6F7D71D2-3BCF-11D5-A65A-0004AC56D771}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>H1</title>
+<meta name=vs_defaultClientScript content="JavaScript">
+<meta name=vs_targetSchema content="http://schemas.microsoft.com/intellisense/ie5">
+<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+<meta name=ProgId content=VisualStudio.HTML>
+<meta name=Originator content="Microsoft Visual Studio .NET 7.1">
+</head>
+<body MS_POSITIONING="GridLayout">
+<div ID="containerNews" style="DISPLAY: inline; VISIBILITY: visible; OVERFLOW: hidden; BORDER-STYLE: none;
+
+width:130.0px;
+height:150.0px;
+background-color:transparent;">
+							<div ID="news" style=" VISIBILITY: visible;position:relative" onmouseover="javascript:wait();" onmouseout="javascript:continu();">
+								<table border="0" cellpadding="1" cellspacing="0" ID="Table1" class="newsLink" style="MARGIN-LEFT: 5px" width="javascript:newswidth;">
+									<tr>
+										<td>
+											<!-- Enter News Items are Here -->
+											News 1
+											<br>
+											<br>
+											News 2
+											<br>
+											<br>
+											News 3
+											<BR>
+											<BR>
+											News 4
+											<BR>
+											<BR>
+											News 5
+											<br>
+											<br>
+											News 6
+											<br>
+											<br>
+											News 7
+											<br>
+											<br>
+											News 8 
+											<!-- End Of News Items -->
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+var step=parseFloat(window.containerNews.style.posTop)+parseFloat(window.containerNews.style.posHeight);
+var diff=(window.news.style.top-window.news.scrollHeight);
+var scrollspeed=50; //Millisecs
+function scrollnews()
+{
+	window.news.style.top = step;
+	step-=2;
+	if((parseFloat(window.news.style.posTop))<=diff)
+	{
+		step=parseFloat(window.containerNews.style.posTop)+parseFloat(window.containerNews.style.posHeight);
+	}
+}
+var retval=setInterval("scrollnews();",scrollspeed);
+
+function wait()
+{
+	clearInterval(retval);
+}
+
+function continu()
+{
+	retval = setInterval("scrollnews();",scrollspeed);
+}
+//  End -->
+						</SCRIPT>
+
+<div ID="containerOffer" style="DISPLAY: inline; VISIBILITY: visible; OVERFLOW: hidden; BORDER-STYLE: none;
+
+width:130.0px;
+height:150.0px;
+background-color:transparent;">
+							<div ID="Offers" style=" VISIBILITY: visible;position:relative" onmouseover="javascript:wait();" onmouseout="javascript:continu();">
+								<table border="0" cellpadding="1" cellspacing="0" ID="Table1" class="OffersLink" style="MARGIN-LEFT: 5px" width="javascript:Offerswidth;">
+									<tr>
+										<td>
+											<!-- Enter Offers Items are Here -->
+											Offer1
+											<br>
+											<br>
+											Offer2
+											<br>
+											<br>
+											Offer3
+											<BR>
+											<BR>
+											Offer4
+											<BR>
+											<BR>
+											Offer5
+											<br>
+											<br>
+											Offer6
+											<br>
+											<br>
+											Offer7
+											<br>
+											<br>
+											Offer8 
+											<!-- End Of Offers Items -->
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<SCRIPT LANGUAGE="JavaScript">
+<!-- Begin
+var step=parseFloat(window.containerOffer.style.posTop)+parseFloat(window.containerOffer.style.posHeight);
+var diff=(window.Offers.style.top-window.Offers.scrollHeight);
+var scrollspeed=50; //Millisecs
+function scrollOffers()
+{
+	window.Offers.style.top = step;
+	step-=2;
+	if((parseFloat(window.Offers.style.posTop))<=diff)
+	{
+		step=parseFloat(window.containerOffer.style.posTop)+parseFloat(window.containerOffer.style.posHeight);
+	}
+}
+var retval=setInterval("scrollOffers();",scrollspeed);
+
+function wait()
+{
+	clearInterval(retval);
+}
+
+function continu()
+{
+	retval = setInterval("scrollOffers();",scrollspeed);
+}
+//  End -->
+						</SCRIPT>
+
+
+</body>
+</html>

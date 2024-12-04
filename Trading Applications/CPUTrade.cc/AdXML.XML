@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<Advertisements>
+  <AD>
+    <ImageUrl>../images/oneworld.gif</ImageUrl>
+    <NavigateUrl />
+    <AlternateText>oneworld.gif</AlternateText>
+    <Keyword />
+    <Impressions />
+  </AD>
+  <AD>
+    <ImageUrl>../images/img3.jpg</ImageUrl>
+    <NavigateUrl />
+    <AlternateText>img3.jpg</AlternateText>
+    <Keyword />
+    <Impressions />
+  </AD>
+</Advertisements>
